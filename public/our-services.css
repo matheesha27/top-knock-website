@@ -1,0 +1,121 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.services-banner {
+    position: relative;
+    width: 65%;        /* narrower than full width */
+    height: 380px;
+    margin: 20px auto;    /* center the banner */
+    /* border-radius: 12px; */
+    overflow: hidden;
+}
+.services-banner img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    display: block;
+}
+.services-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 31, 0.6);
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.services-banner-text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+/* Service Boxes Layout */
+.services-container {
+    width:65%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1200px;
+    /* padding: 0 20px; */
+}
+
+.service-box {
+    padding: 25px;
+    /* border-radius: 12px; */
+    text-align: justify;
+    /* transition: transform 0.3s ease, background 0.3s ease; */
+}
+/* .service-box:hover {
+    background: #252542;
+    transform: translateY(-10px);
+} */
+
+.service-icon {
+    /* width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px; */
+    margin-bottom: -80px;
+    margin-top: -80px;
+}
+
+.service-box h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.service-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.service-list {
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.service-list li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr; /* Mobile: 1 column */
+        width: 90%;
+    }
+    .services-banner {
+        width: 100%;
+        height: 300px;
+    }
+    .services-banner img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .services-banner-text {
+        padding: 12px 20px;
+    }
+    .services-banner-text h2 {
+        font-size: 1.6rem;
+    }
+    .service-icon {
+        /* width: 80px;
+        height: 80px; */
+        margin-top: -40px;
+    }
+    .service-box p {
+        font-size: 1.3rem;
+    }
+}

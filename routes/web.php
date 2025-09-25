@@ -15,7 +15,7 @@ Route::get('/our-services', function () {
 });
 
 Route::get('/our-team', function () {
-    return view('our-team');
+    return view('home#team');
 });
 
 Route::get('/upcoming-events', function () {
@@ -26,6 +26,14 @@ Route::get('/past-events', function () {
     return view('past-events');
 });
 
-Route::get('/contact-us', function () {
-    return view('contact-us');
+Route::get('/Ramadan-League-IV', function () {
+    return view('Ramadan-League-IV');
+});
+
+Route::get('/SLCL-Masters-T10-Fiesta', function () {
+    return view('SLCL-Masters-T10-Fiesta');
+});
+
+Route::get('/SLCL-Season-VI', function () {
+    return view('SLCL-Season-VI');
 });

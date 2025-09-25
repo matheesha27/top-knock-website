@@ -24,13 +24,10 @@
 <body>
     @include('partials.header')
 
-    <!-- Floating Action Button -->
-    <a class="fab" href="#contact" title="Contact"><i class="fa fa-comment"></i></a>
-
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-overlay">
-            <img src="{{ asset('images/about-1.jpg') }}" alt="Sports Banner">
+            <img src="{{ asset('images/about-1.jpg') }}" alt="Sports Banner" style="margin-left: -220px;">
             <div class="hero-text">
                 <h1>WE ARE TOP KNOCK SPORTS MANAGEMENT</h1>
                 <p>
@@ -46,8 +43,8 @@
 
     <!-- Vision, Mission & Values -->
     <section class="vision">
-        <h2>Vision, Mission & Values</h2>
         <div class="vision-content">
+            <h2>Vision, Mission & Values</h2>
             <h3>Our Vision</h3>
             <p>The highly successful, efficient, competitive and robust sporting event organizer on the worldwide market.</p>
 
@@ -56,19 +53,23 @@
                 with the optimum level of service in accordance with the changing needs of our clients.</p>
 
             <h3>Our Values</h3>
-            <ul>
-                <li><b>Fairness:</b> We strive for ethics and fairness in everything we do.</li>
-                <li><b>Passion:</b> Sports is our passion and joy. Passion for our work fuels us.</li>
-                <li><b>Improvement:</b> We study our progress and learn from ourselves and others.</li>
-                <li><b>Innovation:</b> Innovation is about challenging the norm.</li>
-                <li><b>Focus on Results:</b> We manage by objectives and results.</li>
-                <li><b>Proactivity:</b> We are eager to act before we are asked.</li>
-            </ul>
+            <p>
+                <ul>
+                    <li><b>Fairness:</b> We strive for ethics and fairness in everything we do.</li>
+                    <li><b>Passion:</b> Sports is our passion and joy. Passion for our work fuels us.</li>
+                    <li><b>Improvement:</b> We study our progress and learn from ourselves and others.</li>
+                    <li><b>Innovation:</b> Innovation is about challenging the norm.</li>
+                    <li><b>Focus on Results:</b> We manage by objectives and results.</li>
+                    <li><b>Proactivity:</b> We are eager to act before we are asked.</li>
+                </ul>
+            </p>
         </div>
     </section>
 
 
     @include('partials.footer')
+
+    <script src="script.js"></script>
 
 </body>
 </html>

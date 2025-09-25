@@ -7,26 +7,8 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
-    background: #0e0f1a;
+    background: #1a1a2e;
     line-height: 1.6;
-}
-
-/* Floating Button */
-.fab {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #e0004d;
-    color: #fff;
-    font-size: 22px;
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
-    text-align: center;
-    transition: 0.3s;
-}
-.fab:hover {
-    background: #c7003e;
 }
 
 /* Hero Section */
@@ -40,28 +22,28 @@ body {
     object-fit: cover;
 }
 .hero-text {
-    background: #e0004d;
+    background: var(--color2);
     color: #fff;
-    padding: 40px;
-    max-width: 700px;
-    margin: -100px auto 0 auto;
+    padding: 100px 100px 50px 100px;
+    max-width: 850px;
+    margin: -270px -264px 0px auto;
     position: relative;
     z-index: 2;
+    text-align: left;
 }
 .hero-text h1 {
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 15px;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: normal;
 }
 .hero-text p {
     font-size: 16px;
+    color: rgb(192, 192, 198);
 }
 
 /* Vision Section */
 .vision {
     padding: 60px 20px;
-    text-align: center;
-    background: #111222;
 }
 .vision h2 {
     font-size: 28px;
@@ -74,38 +56,16 @@ body {
     text-align: left;
 }
 .vision-content h3 {
-    color: #e0004d;
     margin-top: 20px;
+}
+.vision-content p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight:100;
 }
 .vision-content ul {
     margin-top: 10px;
-    padding-left: 20px;
-}
-.vision-content li {
-    margin-bottom: 8px;
-}
-
-/* Quick Contact */
-.quick-contact {
-    background: #e0004d;
-    padding: 30px 20px;
-    text-align: center;
-}
-.quick-box {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.quick-box p {
-    font-size: 16px;
-}
-.quick-box a {
-    color: #fff;
-    margin: 0 8px;
-    font-size: 20px;
-}
-.quick-box a:hover {
-    color: #111;
+    list-style-type: none;
 }
 
