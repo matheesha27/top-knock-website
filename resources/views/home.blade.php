@@ -27,7 +27,7 @@
 
 
     <!-- Hero -->
-    <section id="home" class="hero">
+    <section id="home" class="hero hero-home">
         <!-- Background video -->
         <video autoplay muted loop playsinline class="hero-video">
             <source src="videos/hero-video.mp4" type="video/mp4">

@@ -53,6 +53,13 @@ img {
     /* keeps video inside */
 }
 
+.hero-home{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
 .hero-video {
     position: absolute;
     top: 0;
