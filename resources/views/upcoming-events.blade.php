@@ -14,11 +14,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="home.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="footer.css?v={{ config('app.app_version') }}">
     <!-- External CSS -->
-    <link rel="stylesheet" href="upcoming-events.css">
+    <link rel="stylesheet" href="upcoming-events.css?v={{ config('app.app_version') }}">
 </head>
 
 <body>

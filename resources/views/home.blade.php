@@ -16,16 +16,15 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="home.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="footer.css?v={{ config('app.app_version') }}">
 
 </head>
 
 <body>
     @include('partials.header')
-    <!-- Floating Action Button -->
-    <a class="fab" href="#contact" title="Contact"><i class='fa fa-comment-dots'></i></a>
+
 
     <!-- Hero -->
     <section id="home" class="hero">
@@ -35,7 +34,8 @@
             Your browser does not support the video tag.
         </video>
         <div class="hero-inner">
-            <h1>ELEVATE YOUR<br />SPORTING EVENTS</h1>
+            <h1>ELEVATE YOUR<br />SPORTING <br class="mobile-only"> EVENTS</h1>
+            <br class="mobile-only">
             <p class="hero-p">NOW WITH TOP-KNOCK TO GUIDE YOU TO EXCELLENCE</p>
             <div class="hero-btn">
                 <a href="/about-us" class="btn secondary">Learn More</a>
@@ -50,14 +50,14 @@
             <a class="tile tile1" href="#events">
                 <div class="overlay"></div>
                 <div class="content right">
-                    <h3>Sports<br />Events</h3>
+                    <h3>Sports <br class="desktop-only">Events</h3>
                     <img src="images/arrow-right-bold.png" alt="Go" class="go">
                 </div>
             </a>
             <a class="tile tile2" href="#services" id="services">
                 <div class="overlay"></div>
                 <div class="content left">
-                    <h3>Sports<br />Services</h3>
+                    <h3>Sports <br class="desktop-only">Services</h3>
                     <img src="images/arrow-right-bold.png" alt="Go" class="go">
                 </div>
             </a>

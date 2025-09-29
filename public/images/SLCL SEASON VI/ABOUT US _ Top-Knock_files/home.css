@@ -44,12 +44,10 @@ img {
     position: relative;
     min-height: 100vh;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     overflow: hidden;
-    margin-left: 6%;
-    margin-top:5%;
     /* keeps video inside */
 }
 
@@ -747,9 +745,6 @@ img {
 }
 
 @media (max-width: 768px) {
-    .hero{
-        margin: 0px;
-    }
   /* Hero */
   .hero h1 {
     font-size: 55px;

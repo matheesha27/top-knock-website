@@ -9,16 +9,18 @@
     <link rel="icon" href="{{ asset('images/logo-bg.jpg') }}" type="image/x-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&family=Rajdhani:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&family=Rajdhani:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="home.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="footer.css?v={{ config('app.app_version') }}">
     <!-- External CSS -->
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about.css?v={{ config('app.app_version') }}">
 </head>
 
 <body>
@@ -46,7 +48,8 @@
         <div class="vision-content">
             <h2>Vision, Mission & Values</h2>
             <h3>Our Vision</h3>
-            <p>The highly successful, efficient, competitive and robust sporting event organizer on the worldwide market.</p>
+            <p>The highly successful, efficient, competitive and robust sporting event organizer on the worldwide
+                market.</p>
 
             <h3>Our Mission</h3>
             <p>To design successful business models by meeting and exceeding requirements through innovative ideas
@@ -54,22 +57,58 @@
 
             <h3>Our Values</h3>
             <p>
-                <ul>
-                    <li><b>Fairness:</b> We strive for ethics and fairness in everything we do.</li>
-                    <li><b>Passion:</b> Sports is our passion and joy. Passion for our work fuels us.</li>
-                    <li><b>Improvement:</b> We study our progress and learn from ourselves and others.</li>
-                    <li><b>Innovation:</b> Innovation is about challenging the norm.</li>
-                    <li><b>Focus on Results:</b> We manage by objectives and results.</li>
-                    <li><b>Proactivity:</b> We are eager to act before we are asked.</li>
-                </ul>
+            <ul>
+                <li><b>Fairness<span class="desktop-only">:</span></b> <br class="mobile-only"> We strive for ethics and
+                    fairness in everything we do. Superior quality is the “ground floor” of our organization.</li><br
+                    class="mobile-only">
+                <li><b>Passion<span class="desktop-only">:</span></b> <br class="mobile-only"> Sports is our passion and
+                    joy. Passion for our work is the fuel that inspires us to achieve extraordinary results.</li><br
+                    class="mobile-only">
+                <li><b>Improvement<span class="desktop-only">:</span></b> <br class="mobile-only"> We study our progress
+                    and learn from ourselves and others how to do things more effectively and efficiently.</li><br
+                    class="mobile-only">
+                <li><b>Innovation<span class="desktop-only">:</span></b> <br class="mobile-only"> Innovation is about
+                    challenging the norm and stretching boundaries in order to create a more efficient and
+                    better-quality business.</li><br class="mobile-only">
+                <li><b>Focus on Results<span class="desktop-only">:</span></b> <br class="mobile-only"> We manage by
+                    objectives and results. Each action is focused on achieving a meaningful concrete result for the
+                    company.</li><br class="mobile-only">
+                <li><b>Proactivity<span class="desktop-only">:</span></b> <br class="mobile-only"> We never stop at what
+                    has been achieved. It is inherent to our corporate culture to never settle for the status quo. We
+                    demand a lot from ourselves. We fully understand that there is always room for better results and
+                    higher efficiencies.</li><br class="mobile-only">
+            </ul>
             </p>
         </div>
     </section>
 
+    <section class="about-contact">
+        <div class="about-contact-container">
+            <div class="contact-box">
+                <h4>Call</h4>
+                <p>+971 50 632 8350</p>
+            </div>
+
+            <div class="contact-box">
+                <h4>Email</h4>
+                <p><a href="mailto:info@top-knock.com">info@top-knock.com</a></p>
+            </div>
+
+            <div class="contact-box">
+                <h4>Follow</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/topknock" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa fa-facebook-f "></i></a>
+                    <a href="https://www.youtube.com/@topknock" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     @include('partials.footer')
 
     <script src="script.js"></script>
 
 </body>
+
 </html>

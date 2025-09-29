@@ -14,11 +14,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="home.css?v={{ config('app.app_version') }}">
+    <link rel="stylesheet" href="footer.css?v={{ config('app.app_version') }}">
     <!-- External CSS -->
-    <link rel="stylesheet" href="past-events.css">
+    <link rel="stylesheet" href="past-events.css?v={{ config('app.app_version') }}">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
 
         <!-- Event 1 -->
         <div class="event">
-            <h1>SLCL Ramadan League (Season IV) <a href="/Ramadan-League-IV" class="event-link">></a></h1>
+            <h1>SLCL Ramadan League (Season IV) <span class="desktop-only"><a href="/Ramadan-League-IV" class="event-link">></a></span> </h1>
 
             <div class="event-gallery">
                 <img src="images/event1a.avif" alt="Prime Champions">
@@ -51,11 +51,14 @@
                 <br>
                     Throughout the tournament, teams showcased their skills and determination, battling it out on the field with unwavering spirit and passion. From power-packed batting performances to masterful bowling spells, every aspect of the game was on display.
             </p>
+            <p>
+                <span class="mobile-only"><a href="/Ramadan-League-IV" class="event-link">></a></span>
+            </p>
         </div>
 
         <!-- Event 2 -->
         <div class="event">
-            <h1>SLCL Masters T10 Fiesta <a href="/SLCL-Masters-T10-Fiesta" class="event-link">></a></h1>
+            <h1>SLCL Masters T10 Fiesta <span class="desktop-only"><a href="/SLCL-Masters-T10-Fiesta" class="event-link">></a></span> </h1>
             <div class="event-img">
                 <img src="images/event2.avif" alt="Masters T10 Fiesta">
             </div>
@@ -70,11 +73,14 @@
                 <br>
                     #SLCLMastersT10 #CricketFiesta #Jan2024 #FastAndFurious"
             </p>
+            <p>
+                <span class="mobile-only"><a href="/SLCL-Masters-T10-Fiesta" class="event-link">></a></span>
+            </p>
         </div>
 
         <!-- Event 3 -->
         <div class="event">
-            <h1 style="text-align: left">SLCL Season VI <a href="/SLCL-Season-VI" class="event-link">></a></h1>
+            <h1 style="text-align: left">SLCL Season VI <span class="desktop-only"><a href="/SLCL-Season-VI" class="event-link">></a></span></h1>
             <p>
             <span class="para-bold">OCT - NOV 2023</span> <br>
             Triumph in Unity: Season VI of SLCL Culminates with Splendor!
@@ -92,6 +98,9 @@
             <br>
             #SLCLSeasonVI #CricketTriumph #Champions"
             </p>
+            <p>
+                <span class="mobile-only"><a href="/SLCL-Season-VI" class="event-link">></a></span>
+            </p>
         </div>
     </section>
 
@@ -105,7 +114,7 @@
     <section class="past-events-content" style="float: none;">
         <!-- Event 4 -->
         <div class="event">
-            <h1 style="text-align: left">SLCL Ramadan League - Season III</h1>
+            <h1 style="text-align: left">SLCL Ramadan <br class="mobile-only">League - Season III</h1>
             <p>
                 <span class="para-bold">April 2023</span> <br><br>
                 "🌙✨ Celebrating Cricket in the Holy Month: SLCL Ramadan League Season III! ✨🏏
@@ -144,7 +153,7 @@
                     <li>SLCL - Season I - SLCL Tournaments (T20) - Oct 2017</li>
                 </ul>
             </p>
-            <div class="event-img">
+            <div class="event-img desktop-only">
                 <img src="images/logo.png" alt="Top-Knock Logo" style="width: 60%;margin-top: -180px;margin-bottom: -180px;display: inline;">
             </div>
         </div>

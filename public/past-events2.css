@@ -1,0 +1,198 @@
+.poster {
+    margin: 30px 0;
+    text-align: center;
+    /* optional if you use block + margin auto */
+}
+
+.poster img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    border-radius: 8px;
+}
+
+.poster-full-width {
+    margin: 30px 0;
+    text-align: center;
+    /* optional if you use block + margin auto */
+}
+
+.poster-full-width img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.champions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+.champ-card {
+    text-align: center;
+    flex: 1 1 250px;
+}
+
+.champ-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.awards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+    gap: 75px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.award-card {
+    background: #1a1a2e;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.award-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 35px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.team-card {
+    background: #1a1a2e;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 30px;
+    margin: 30px 80px;
+}
+
+.member-card {
+    background: #1a1a2e;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.member-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.member-info {
+    background: #0a0a0f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+    margin-top: -20px;
+    text-align: left;
+}
+
+.member-info h4 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.member-info p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #ccc;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.sponsor-logos img {
+    max-width: 430px;
+    border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .hero-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-title {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .poster img {
+        max-width: 90%;
+    }
+
+    .sponsor-logos img {
+        max-width: 90%;
+    }
+
+    .poster-full-width img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        /* keeps full image visible */
+        object-fit: contain;
+        /* prevents cropping */
+        margin: 0 auto;
+        /* center horizontally */
+    }
+
+    .members {
+        margin: 0px;
+    }
+
+    .member-info {
+        text-align: center;
+    }
+
+    .member-info h4{
+        font-size: 25px;
+    }
+
+    .member-info p{
+        font-size: 20px;
+    }
+}
