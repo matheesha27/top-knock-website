@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ABOUT US | Top-Knock</title>
+    <title>SLCL RAMADAN LEAGUE SEASON IV | Top-Knock</title>
 
     <link rel="icon" href="{{ asset('images/logo-bg.jpg') }}" type="image/x-icon">
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ABOUT US | Top-Knock</title>
+    <title>PAST EVENTS | Top-Knock</title>
 
     <link rel="icon" href="{{ asset('images/logo-bg.jpg') }}" type="image/x-icon">
 
@@ -134,7 +134,7 @@
 
         <!-- Past Events List -->
         <div class="event-list">
-            <h1>Past Events</h1>
+            <h1 style="text-align: left;">Past Events</h1>
             <p>
                 <ul style="list-style-type: disc; margin-left: 20px;">
                     <li>SLCL - Season V - SLCL Tournaments (T20) - Oct 2022</li>

@@ -58,25 +58,42 @@
             <h3>Our Values</h3>
             <p>
             <ul>
-                <li><b>Fairness<span class="desktop-only">:</span></b> <br class="mobile-only"> We strive for ethics and
-                    fairness in everything we do. Superior quality is the “ground floor” of our organization.</li><br
-                    class="mobile-only">
-                <li><b>Passion<span class="desktop-only">:</span></b> <br class="mobile-only"> Sports is our passion and
-                    joy. Passion for our work is the fuel that inspires us to achieve extraordinary results.</li><br
-                    class="mobile-only">
-                <li><b>Improvement<span class="desktop-only">:</span></b> <br class="mobile-only"> We study our progress
-                    and learn from ourselves and others how to do things more effectively and efficiently.</li><br
-                    class="mobile-only">
-                <li><b>Innovation<span class="desktop-only">:</span></b> <br class="mobile-only"> Innovation is about
-                    challenging the norm and stretching boundaries in order to create a more efficient and
-                    better-quality business.</li><br class="mobile-only">
-                <li><b>Focus on Results<span class="desktop-only">:</span></b> <br class="mobile-only"> We manage by
-                    objectives and results. Each action is focused on achieving a meaningful concrete result for the
-                    company.</li><br class="mobile-only">
-                <li><b>Proactivity<span class="desktop-only">:</span></b> <br class="mobile-only"> We never stop at what
-                    has been achieved. It is inherent to our corporate culture to never settle for the status quo. We
-                    demand a lot from ourselves. We fully understand that there is always room for better results and
-                    higher efficiencies.</li><br class="mobile-only">
+                <li>
+                    <p><b style="font-weight: bold">Fairness<span class="desktop-only">:</span></b>
+                    <br class="mobile-only">
+                    We strive for ethics and fairness in everything we do. Superior quality is the “ground floor” of our organization.</p>
+                </li>
+                <br class="mobile-only">
+                <li>
+                    <p><b style="font-weight: bold">Passion<span class="desktop-only">:</span></b>
+                    <br class="mobile-only">
+                    Sports is our passion and joy. Passion for our work is the fuel that inspires us to achieve extraordinary results.</p>
+                </li>
+                <br class="mobile-only">
+                <li>
+                    <p><b style="font-weight: bold">Improvement<span class="desktop-only">:</span></b>
+                    <br class="mobile-only">
+                    We study our progress and learn from ourselves and others how to do things more effectively and efficiently.</p>
+                </li>
+                <br class="mobile-only">
+                <li>
+                    <p><b style="font-weight: bold">Innovation<span class="desktop-only">:</span></b>
+                    <br class="mobile-only">
+                    Innovation is about challenging the norm and stretching boundaries in order to create a more efficient and better-quality business.</p>
+                </li>
+                <br class="mobile-only">
+                <li>
+                    <p><b style="font-weight: bold">Focus on Results<span class="desktop-only">:</span></b>
+                    <br class="mobile-only">
+                    We manage by objectives and results. Each action is focused on achieving a meaningful concrete result for the company.</p>
+                </li>
+                <br class="mobile-only">
+                <li>
+                    <p><b style="font-weight: bold">Proactivity<span class="desktop-only">:</span></b>
+                    <br class="mobile-only">
+                    We never stop at what has been achieved. It is inherent to our corporate culture to never settle for the status quo. We demand a lot from ourselves. We fully understand that there is always room for better results and higher efficiencies.</p>
+                </li>
+                <br class="mobile-only">
             </ul>
             </p>
         </div>
@@ -96,10 +113,13 @@
 
             <div class="contact-box">
                 <h4>Follow</h4>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/topknock" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa fa-facebook-f "></i></a>
-                    <a href="https://www.youtube.com/@topknock" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
-                    <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                <div class="social-icons" style="display: block;">
+                    <a href="https://www.facebook.com/topknock" target="_blank" rel="noopener" aria-label="Facebook"><i
+                            class="fa fa-facebook-f "></i></a>
+                    <a href="https://www.youtube.com/@topknock" target="_blank" rel="noopener" aria-label="YouTube"><i
+                            class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener"
+                        aria-label="Instagram"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
         </div>

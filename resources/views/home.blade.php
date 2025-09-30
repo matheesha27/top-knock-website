@@ -65,7 +65,35 @@
     </section>
 
     <!-- About -->
+    {{-- <section class="about" id="about">
+        <div class="overlay">
+            <div class="content">
+                <h2>ABOUT US</h2>
+                <p>
+                    At Top Knock, we are passionate about sports and committed to delivering unforgettable events.
+                    Our team of experienced professionals has a proven track record of planning and executing
+                    successful sports events of all sizes, from local tournaments to international championships.
+                    We pride ourselves in providing exceptional service and creating memorable experiences for
+                    athletes, audiences, and sponsors alike.
+                </p>
+                <a href="/about-us" class="btn primary">Learn More</a>
+
+                <div class="socials">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!-- About -->
+    <!-- About -->
     <section class="about" id="about">
+        <!-- Parallax background image -->
+        <div class="parallax-bg">
+            <img src="/images/about-us.jpg" alt="About Us Background">
+        </div>
+
         <div class="overlay">
             <div class="content">
                 <h2>ABOUT US</h2>
@@ -87,6 +115,36 @@
         </div>
     </section>
 
+    <script>
+        // Parallax scroll effect
+        // window.addEventListener("scroll", function () {
+        //   const bg = document.querySelector(".parallax-bg img");
+        //   if (bg) {
+        //     let offset = window.scrollY;
+        //     bg.style.transform = `translateY(${offset * 0.3}px)`; // adjust 0.3 for speed
+        //   }
+        // });
+        window.addEventListener("scroll", function() {
+            const bg = document.querySelector(".parallax-bg img");
+            if (!bg) return;
+
+            const offset = window.scrollY;
+            const screenWidth = window.innerWidth;
+
+            if (screenWidth >= 1024) {
+                // Desktop
+                bg.style.transform = `translateY(${offset * 0.3}px)`;
+            } else if (screenWidth >= 768) {
+                // Large mobile / small tablet
+                bg.style.transform = `translateY(${offset * 0.1}px)`; // slower speed
+                bg.style.marginTop = `0px`;
+            } else {
+                // Small mobile
+                bg.style.transform = `translateY(0)`; // fixed
+                bg.style.marginTop = `0px`;
+            }
+        });
+    </script>
 
     <!-- Team -->
     <section class="team" id="team">
@@ -198,89 +256,89 @@
     <section class="cta-band">
         <div class="text-div">
             <p>ELEVATE YOUR NEXT SPORTING EVENT</p>
-        <div class="contact-div">
-            <a class="btn primary2" href="/contact-us">Contact Us</a>
-        </div>
+            <div class="contact-div">
+                <a class="btn primary2" href="/contact-us">Contact Us</a>
+            </div>
 
-        <div class="image-div">
-            <div class="cta-image">
-                <img src="images/img01.png" alt="">
-                <div class="overlay">
-                    <div class="left-icons">
-                        <i class="fa fa-heart-o like-btn"></i>
-                        <span class="like-count">0</span>
+            <div class="image-div">
+                <div class="cta-image">
+                    <img src="images/img01.png" alt="">
+                    <div class="overlay">
+                        <div class="left-icons">
+                            <i class="fa fa-heart-o like-btn"></i>
+                            <span class="like-count">0</span>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa fa-share"></i>
+                        </div>
                     </div>
-                    <div class="right-icons">
-                        <i class="fa fa-share"></i>
+                </div>
+
+                <div class="cta-image">
+                    <img src="images/img02.jpg" alt="">
+                    <div class="overlay">
+                        <div class="left-icons">
+                            <i class="fa fa-heart-o like-btn"></i>
+                            <span class="like-count">0</span>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-image">
+                    <img src="images/img03.png" alt="">
+                    <div class="overlay">
+                        <div class="left-icons">
+                            <i class="fa fa-heart-o like-btn"></i>
+                            <span class="like-count">0</span>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-image">
+                    <img src="images/img04.png" alt="">
+                    <div class="overlay">
+                        <div class="left-icons">
+                            <i class="fa fa-heart-o like-btn"></i>
+                            <span class="like-count">0</span>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-image">
+                    <img src="images/img05.png" alt="">
+                    <div class="overlay">
+                        <div class="left-icons">
+                            <i class="fa fa-heart-o like-btn"></i>
+                            <span class="like-count">0</span>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-image">
+                    <img src="images/img06.png" alt="">
+                    <div class="overlay">
+                        <div class="left-icons">
+                            <i class="fa fa-heart-o like-btn"></i>
+                            <span class="like-count">0</span>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa fa-share"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="cta-image">
-                <img src="images/img02.jpg" alt="">
-                <div class="overlay">
-                    <div class="left-icons">
-                        <i class="fa fa-heart-o like-btn"></i>
-                        <span class="like-count">0</span>
-                    </div>
-                    <div class="right-icons">
-                        <i class="fa fa-share"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cta-image">
-                <img src="images/img03.png" alt="">
-                <div class="overlay">
-                    <div class="left-icons">
-                        <i class="fa fa-heart-o like-btn"></i>
-                        <span class="like-count">0</span>
-                    </div>
-                    <div class="right-icons">
-                        <i class="fa fa-share"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cta-image">
-                <img src="images/img04.png" alt="">
-                <div class="overlay">
-                    <div class="left-icons">
-                        <i class="fa fa-heart-o like-btn"></i>
-                        <span class="like-count">0</span>
-                    </div>
-                    <div class="right-icons">
-                        <i class="fa fa-share"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cta-image">
-                <img src="images/img05.png" alt="">
-                <div class="overlay">
-                    <div class="left-icons">
-                        <i class="fa fa-heart-o like-btn"></i>
-                        <span class="like-count">0</span>
-                    </div>
-                    <div class="right-icons">
-                        <i class="fa fa-share"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cta-image">
-                <img src="images/img06.png" alt="">
-                <div class="overlay">
-                    <div class="left-icons">
-                        <i class="fa fa-heart-o like-btn"></i>
-                        <span class="like-count">0</span>
-                    </div>
-                    <div class="right-icons">
-                        <i class="fa fa-share"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </section>
 
@@ -447,28 +505,33 @@
             <div class="logo"><img src="{{ asset('images/clients/9.avif') }}" alt="Then and Now"></div>
         </div>
         <div class="maxw" style="text-align:center; padding-bottom:24px;margin-top:24px">
-            <a href="{{ asset('Our Partners.pdf') }}" target="_blank" class="btn" style="border-color:#7f86a6;color:#cbd0e6">View More...</a>
+            <a href="{{ asset('Our Partners.pdf') }}" target="_blank" class="btn"
+                style="border-color:#7f86a6;color:#cbd0e6">View More...</a>
         </div>
     </section>
 
     <!-- Numbers -->
-    <section class="numbers" id="expertise">
+    <section class="numbers section-0" id="expertise">
         <p>OUR EXPERTISE</p>
         <div class="nums">
             <div>
-                <div class="n" data-count="10">0</div><hr>
+                <div class="n" data-count="10">0</div>
+                <hr>
                 <div class="cap">YEARS IN SERVICE</div>
             </div>
             <div>
-                <div class="n" data-count="100">0</div><hr>
+                <div class="n" data-count="100">0</div>
+                <hr>
                 <div class="cap">EVENTS HOSTED</div>
             </div>
             <div>
-                <div class="n" data-count="100">0</div><hr>
+                <div class="n" data-count="100">0</div>
+                <hr>
                 <div class="cap">SATISFIED CLIENTS</div>
             </div>
             <div>
-                <div class="n" data-count="15">0</div><hr>
+                <div class="n" data-count="15">0</div>
+                <hr>
                 <div class="cap">SPORTS CATEGORIES</div>
             </div>
         </div>
