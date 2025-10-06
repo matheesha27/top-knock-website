@@ -36,7 +36,7 @@
         <div class="hero-inner">
             <h1>ELEVATE YOUR<br />SPORTING <br class="mobile-only"> EVENTS</h1>
             <br class="mobile-only">
-            <p class="hero-p">NOW WITH TOP-KNOCK TO GUIDE YOU TO EXCELLENCE</p>
+            <p class="hero-p">NOW WITH TOP-KNOCK <br class="mobile-only"> TO GUIDE YOU TO <br class="mobile-only"> EXCELLENCE</p>
             <div class="hero-btn">
                 <a href="/about-us" class="btn secondary">Learn More</a>
                 <a href="/contact-us" class="btn primary">Contact Us</a>
@@ -94,7 +94,7 @@
             <img src="/images/about-us.jpg" alt="About Us Background">
         </div>
 
-        <div class="overlay">
+        <div class="overlay" style="padding-bottom: 5%;">
             <div class="content">
                 <h2>ABOUT US</h2>
                 <p>

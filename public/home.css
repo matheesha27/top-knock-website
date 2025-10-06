@@ -325,20 +325,13 @@ img {
 }
 
 .about .content {
-    max-width: 578px;
-    margin-left: 34%;
-    margin-top: 10%;
-}
-
-
-.about .content {
-    max-width: 578px;
-    margin-left: 34%;
-    margin-top: 10%;
+    max-width: 24%;
+    margin-left: 18%;
+    margin-top: 4%;
 }
 
 .about h2 {
-    font-size: 70px;
+    font-size: 86px;
     font-weight: 400;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -350,7 +343,7 @@ img {
     margin-bottom: 20px;
     color: #ddd;
     font-weight: 100;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .socials {
@@ -807,12 +800,13 @@ img {
     .team-grid {
         padding: 0 30px;
         gap: 40px;
+        display: block;
     }
 }
 
 @media (max-width: 768px) {
     .hero {
-        margin: 0px;
+        /*margin: 0px;*/
     }
 
     /* Hero */
@@ -827,8 +821,7 @@ img {
     }
 
     .hero-inner {
-        margin-top: -300px;
-        ;
+        /*margin-top: -300px;*/
     }
 
     .btn {
@@ -874,7 +867,7 @@ img {
     }
 
     .numbers p {
-        font-size: 55px;
+        font-size: 30px;
     }
 
     .socials {
@@ -896,7 +889,7 @@ img {
     }
 
     .hero p.hero-p {
-        font-size: 24px;
+        font-size: 20px;
         letter-spacing: 9px;
     }
 
