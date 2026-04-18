@@ -31,7 +31,12 @@
         <div class="hero-overlay">
             <img src="{{ asset('images/about-1.jpg') }}" alt="Sports Banner" style="margin-left: -220px;">
             <div class="hero-text">
-                <h1>WE ARE TOP KNOCK SPORTS MANAGEMENT</h1>
+                <h1>
+                    WE ARE 
+                </h1>
+                <h1>
+                    <span class="highlight">TOP KNOCK SPORTS MANAGEMENT</span>
+                </h1>
                 <p>
                     Top Knock is a Sports Management company with major expertise in Sports Event Management, Tours,
                     Sports Clothing & Camps.<br><br>
@@ -59,37 +64,37 @@
             <p>
             <ul>
                 <li>
-                    <p><b style="font-weight: bold">Fairness<span class="desktop-only">:</span></b>
+                    <p><b style="font-weight: bold" class="highlight-p">Fairness<span class="desktop-only">:</span></b>
                     <br class="mobile-only">
                     We strive for ethics and fairness in everything we do. Superior quality is the “ground floor” of our organization.</p>
                 </li>
                 <br class="mobile-only">
                 <li>
-                    <p><b style="font-weight: bold">Passion<span class="desktop-only">:</span></b>
+                    <p><b style="font-weight: bold" class="highlight-p">Passion<span class="desktop-only">:</span></b>
                     <br class="mobile-only">
                     Sports is our passion and joy. Passion for our work is the fuel that inspires us to achieve extraordinary results.</p>
                 </li>
                 <br class="mobile-only">
                 <li>
-                    <p><b style="font-weight: bold">Improvement<span class="desktop-only">:</span></b>
+                    <p><b style="font-weight: bold" class="highlight-p">Improvement<span class="desktop-only">:</span></b>
                     <br class="mobile-only">
                     We study our progress and learn from ourselves and others how to do things more effectively and efficiently.</p>
                 </li>
                 <br class="mobile-only">
                 <li>
-                    <p><b style="font-weight: bold">Innovation<span class="desktop-only">:</span></b>
+                    <p><b style="font-weight: bold" class="highlight-p">Innovation<span class="desktop-only">:</span></b>
                     <br class="mobile-only">
                     Innovation is about challenging the norm and stretching boundaries in order to create a more efficient and better-quality business.</p>
                 </li>
                 <br class="mobile-only">
                 <li>
-                    <p><b style="font-weight: bold">Focus on Results<span class="desktop-only">:</span></b>
+                    <p><b style="font-weight: bold" class="highlight-p">Focus on Results<span class="desktop-only">:</span></b>
                     <br class="mobile-only">
                     We manage by objectives and results. Each action is focused on achieving a meaningful concrete result for the company.</p>
                 </li>
                 <br class="mobile-only">
                 <li>
-                    <p><b style="font-weight: bold">Proactivity<span class="desktop-only">:</span></b>
+                    <p><b style="font-weight: bold" class="highlight-p">Proactivity<span class="desktop-only">:</span></b>
                     <br class="mobile-only">
                     We never stop at what has been achieved. It is inherent to our corporate culture to never settle for the status quo. We demand a lot from ourselves. We fully understand that there is always room for better results and higher efficiencies.</p>
                 </li>

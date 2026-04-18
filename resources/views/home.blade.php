@@ -39,26 +39,48 @@
             <p class="hero-p">NOW WITH TOP-KNOCK <br class="mobile-only"> TO GUIDE YOU TO <br class="mobile-only"> EXCELLENCE</p>
             <div class="hero-btn">
                 <a href="/about-us" class="btn primary">Learn More</a>
-                <a href="/contact-us" class="btn primary">Contact Us</a>
+                <a href="/#contact" class="btn primary">Contact Us</a>
             </div>
         </div>
     </section>
 
-    <!-- Two Tiles -->
+    <!-- Six Tiles -->
     <section class="tiles" id="events">
         <div class="tiles-inner">
             <a class="tile tile1" href="#events">
                 <div class="overlay"></div>
                 <div class="content right">
                     <h3>Sports <br class="desktop-only">Events</h3>
-                    <img src="images/arrow-right-bold.png" alt="Go" class="go">
                 </div>
             </a>
             <a class="tile tile2" href="#services" id="services">
                 <div class="overlay"></div>
                 <div class="content left">
                     <h3>Sports <br class="desktop-only">Services</h3>
-                    <img src="images/arrow-right-bold.png" alt="Go" class="go">
+                </div>
+            </a>
+            <a class="tile tile1" href="#events">
+                <div class="overlay"></div>
+                <div class="content right">
+                    <h3>Category <br class="desktop-only">3</h3>
+                </div>
+            </a>
+            <a class="tile tile2" href="#events">
+                <div class="overlay"></div>
+                <div class="content left">
+                    <h3>Category <br class="desktop-only">4</h3>
+                </div>
+            </a>
+            <a class="tile tile1" href="#events">
+                <div class="overlay"></div>
+                <div class="content right">
+                    <h3>Category <br class="desktop-only">5</h3>
+                </div>
+            </a>
+            <a class="tile tile2" href="#events">
+                <div class="overlay"></div>
+                <div class="content left">
+                    <h3>Category <br class="desktop-only">6</h3>
                 </div>
             </a>
         </div>
