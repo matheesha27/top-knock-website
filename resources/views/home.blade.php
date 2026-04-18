@@ -38,7 +38,7 @@
             <br class="mobile-only">
             <p class="hero-p">NOW WITH TOP-KNOCK <br class="mobile-only"> TO GUIDE YOU TO <br class="mobile-only"> EXCELLENCE</p>
             <div class="hero-btn">
-                <a href="/about-us" class="btn secondary">Learn More</a>
+                <a href="/about-us" class="btn primary">Learn More</a>
                 <a href="/contact-us" class="btn primary">Contact Us</a>
             </div>
         </div>
@@ -162,30 +162,50 @@
                 <div class="photo">
                     <img src="images/member-1.png" alt="Manju Abeysekera">
                 </div>
+
                 <div class="content">
                     <div class="header-line">
                         <div>
                             <h4>Manju Abeysekera</h4>
                             <div class="role">(Founder & CEO)</div>
                         </div>
+
                         <div class="social-icons">
-                            <a href="https://www.instagram.com/manju.abeysekera/?igshid=MzRlODBiNWFlZA%3D%3D"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/manju.abeysekera?mibextid=LQQJ4d"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/in/manju-abeysekera-mba-597bb728"><i
-                                    class="fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/manju.abeysekera/?igshid=MzRlODBiNWFlZA%3D%3D">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/manju.abeysekera?mibextid=LQQJ4d">
+                                <i class="fa fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/manju-abeysekera-mba-597bb728">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
                         </div>
                     </div>
+
                     <p class="bio">
                         A Banker in profession who is passionate about various sports. He has diversified himself
                         to be a Sports Event Manager and ICC qualified Cricket Coach.
                     </p>
+
                     <p class="bio">
                         Manju’s experience spans over 16 years in UAE where he has created a name in the market
                         for his professionalism, standards, trust and innovation. He has got vast experience
                         working with Cricket Academies, Clubs & Franchises in UAE and Sri Lanka.
                     </p>
+
+                    <!-- Contact Section -->
+                    <div class="header-line">
+                        <h5>Contact</h5>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+971506328350">+971 50 6328 350</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:manju@top-knock.com">manju@top-knock.com</a>
+                        </p>
+                    </div>
                 </div>
             </article>
 
@@ -217,6 +237,18 @@
                         Over 14 years UAE experience in different organizations has led Rangika to be an outshined
                         individual who can drive a company to its success.
                     </p>
+                    <!-- Contact Section -->
+                    <div class="header-line">
+                        <h5>Contact</h5>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+971509545787">+971 50 9545 787</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:admin@top-knock.com">admin@top-knock.com</a>
+                        </p>
+                    </div>
                 </div>
             </article>
 
@@ -247,6 +279,147 @@
                         Nimesh acts as a consultant to many organizations to fulfill their Operational & Financial
                         solutions.
                     </p>
+                    <!-- Contact Section -->
+                    <div class="header-line">
+                        <h5>Contact</h5>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+971561346680">+971 56 134 6680</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:admin@top-knock.com">admin@top-knock.com</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Member 4 -->
+            <article class="member">
+                <div class="photo">
+                    <img src="images/member-2.png" alt="Rangika Thilakawardena">
+                </div>
+                <div class="content">
+                    <div class="header-line">
+                        <div>
+                            <h4>Nikhila Rajakaruna</h4>
+                            <div class="role">(Head of Marketing)</div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
+                                    class="fa fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <p class="bio">
+                        Qualified Administrator, Finance Manager in profession. Rangika holds high abilities
+                        in Managing Overall Operations with lean processes & principles.
+                    </p>
+                    <p class="bio">
+                        Over 14 years UAE experience in different organizations has led Rangika to be an outshined
+                        individual who can drive a company to its success.
+                    </p>
+                    <!-- Contact Section -->
+                    <div class="header-line">
+                        <h5>Contact</h5>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+971557469153">+971 55 7469 153</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:info@top-knock.com">info@top-knock.com</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Member 5 -->
+            <article class="member">
+                <div class="photo">
+                    <img src="images/member-2.png" alt="Rangika Thilakawardena">
+                </div>
+                <div class="content">
+                    <div class="header-line">
+                        <div>
+                            <h4>Sehan Kavinda</h4>
+                            <div class="role">(Director of Photography - Top-knock Studios)</div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
+                                    class="fa fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <p class="bio">
+                        Qualified Administrator, Finance Manager in profession. Rangika holds high abilities
+                        in Managing Overall Operations with lean processes & principles.
+                    </p>
+                    <p class="bio">
+                        Over 14 years UAE experience in different organizations has led Rangika to be an outshined
+                        individual who can drive a company to its success.
+                    </p>
+                    <!-- Contact Section -->
+                    <div class="header-line">
+                        <h5>Contact</h5>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+971553760772">+971 55 376 0772</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:info@top-knock.com">info@top-knock.com</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Member 6 -->
+            <article class="member">
+                <div class="photo">
+                    <img src="images/member-2.png" alt="Rangika Thilakawardena">
+                </div>
+                <div class="content">
+                    <div class="header-line">
+                        <div>
+                            <h4>Chemila Obeysekere</h4>
+                            <div class="role">(Manager - Operations)</div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
+                                    class="fa fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <p class="bio">
+                        Qualified Administrator, Finance Manager in profession. Rangika holds high abilities
+                        in Managing Overall Operations with lean processes & principles.
+                    </p>
+                    <p class="bio">
+                        Over 14 years UAE experience in different organizations has led Rangika to be an outshined
+                        individual who can drive a company to its success.
+                    </p>
+                    <!-- Contact Section -->
+                    <div class="header-line">
+                        <h5>Contact</h5>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+971553760772">+971 55 376 0772</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:info@top-knock.com">info@top-knock.com</a>
+                        </p>
+                    </div>
                 </div>
             </article>
         </div>
@@ -257,7 +430,6 @@
         <div class="text-div">
             <p>ELEVATE YOUR NEXT SPORTING EVENT</p>
             <div class="contact-div">
-                <a class="btn primary2" href="/contact-us">Contact Us</a>
             </div>
 
             <div class="image-div">
