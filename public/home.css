@@ -492,7 +492,7 @@ img {
     text-align: center;
     padding: 40px 16px;
     position: relative;
-    height: 50%;
+    height: 45%;
 }
 
 .cta-band p {
@@ -666,40 +666,76 @@ img {
     font-size: 50px;
 }
 
-.logo-grid {
-    max-width: 58%;
-    margin: 10px auto 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 45px 140px;
-}
-
-.logo {
-    background: white;
-    border: 1px solid #232a46;
-    padding: 10px;
-    display: grid;
-    place-items: center;
-    height: auto;
-}
-
-.logo img {
-    max-height: 100%;
-    height: auto;
-    object-fit: contain
+.partners h4 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 15px;
+    font-size: 20px;
 }
 
 @media (max-width:800px) {
     .logo-grid {
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: repeat(2, 1fr)
     }
 }
 
 @media (max-width:560px) {
     .logo-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
         gap: 10px 17px;
+    }
+}
+
+.logo-slider {
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+}
+
+.logo-track {
+    display: flex;
+    width: calc(200%); /* because we duplicated */
+    animation: scroll 25s linear infinite;
+}
+
+.logo {
+    flex: 0 0 auto;
+    width: 150px;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 100px;
+    transition: 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+/* animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+        margin: 0 15px;
+    }
+
+    .logo img {
+        height: 40px;
     }
 }
 
