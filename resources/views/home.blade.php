@@ -693,26 +693,17 @@
         <div class="logo-slider">
             <div class="logo-track">
                 <!-- original logos -->
-                <div class="logo"><img src="{{ asset('images/clients/1.avif') }}" alt="DHL"></div>
-                <div class="logo"><img src="{{ asset('images/clients/2.avif') }}" alt="Lion"></div>
-                <div class="logo"><img src="{{ asset('images/clients/3.avif') }}" alt="Red Bull"></div>
-                <div class="logo"><img src="{{ asset('images/clients/4.avif') }}" alt="FitsAir"></div>
-                <div class="logo"><img src="{{ asset('images/clients/5.avif') }}" alt="mycandy"></div>
-                <div class="logo"><img src="{{ asset('images/clients/6.avif') }}" alt="mycargo"></div>
-                <div class="logo"><img src="{{ asset('images/clients/7.avif') }}" alt="Then and Now"></div>
-                <div class="logo"><img src="{{ asset('images/clients/8.avif') }}" alt="Then and Now"></div>
-                <div class="logo"><img src="{{ asset('images/clients/9.avif') }}" alt="Then and Now"></div>
-
+                @for ($i = 1; $i <= 16; $i++)
+                    <div class="logo">
+                        <img src="{{ asset('images/clients/' . $i . '.jpg') }}" alt="Client {{ $i }}">
+                    </div>
+                @endfor
                 <!-- duplicate logos (important for seamless loop) -->
-                <div class="logo"><img src="{{ asset('images/clients/1.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/2.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/3.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/4.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/5.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/6.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/7.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/8.avif') }}" alt=""></div>
-                <div class="logo"><img src="{{ asset('images/clients/9.avif') }}" alt=""></div>
+                @for ($i = 1; $i <= 16; $i++)
+                    <div class="logo">
+                        <img src="{{ asset('images/clients/' . $i . '.jpg') }}" alt="Client {{ $i }}">
+                    </div>
+                @endfor
             </div>
         </div>
         <div class="maxw" style="text-align:center; padding-bottom:24px;margin-top:24px">
@@ -731,7 +722,7 @@
                 <div class="cap">YEARS IN SERVICE</div>
             </div>
             <div>
-                <div class="n" data-count="100">0</div>
+                <div class="n" data-count="150">0</div>
                 <hr>
                 <div class="cap">EVENTS HOSTED</div>
             </div>
