@@ -6,8 +6,8 @@
             <div class="mini">Get in touch with us now for more details.</div>
             <div class="sp-24"></div>
             <div class="card">
-                <div class="mini2"><strong>PO Box:</strong> 48791, <strong>Shop Address:</strong> Block 9B,<br />
-                    Sheikh Zayed Road Trade Centre, DIFC, Dubai, UAE</div>
+                <div class="mini2"><strong>PO Box:</strong> 117397, <strong>Shop Address:</strong> SRTIP ACCELERATOR,<br />
+                    Rolex Tower - 9B, Sheikh Zayed Rd, Trade Centre, DIFC, Dubai, UAE.</div>
             </div>
 
             <!-- <div class="sp-24"></div> -->
@@ -16,7 +16,10 @@
                     <a href="mailto:info@topknock.com?subject=Partnering with Top-Knock">info@top-knock.com</a>
                 </div>
                 <div class="mini">
-                    <a href="tel:+971559120541">+971 50 632 8350</a>
+                    <a href="tel:+971506328350">+971 50 632 8350</a>
+                </div>
+                <div class="mini">
+                    <a href="tel:+971558380176">+971 55 838 0176</a>
                 </div>
             </div>
             <div class="social">
@@ -30,10 +33,6 @@
 
                 <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener" aria-label="Instagram">
                     <i class="fa fa-instagram"></i>
-                </a>
-
-                <a href="https://www.linkedin.com/company/topknock" target="_blank" rel="noopener" aria-label="LinkedIn">
-                    <i class="fa fa-linkedin"></i>
                 </a>
 
                 <!-- TikTok (fallback text or upgrade FA) -->
@@ -63,7 +62,7 @@
             </form>
             <!-- Footer -->
             <footer class="footer">
-                <div>© 2024 BY TOP-KNOCK.</div>
+                <div>© 2026 BY TOP-KNOCK</div>
             </footer>
         </div>
 
