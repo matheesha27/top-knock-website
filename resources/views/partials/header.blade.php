@@ -22,15 +22,15 @@
           </ul>
       </li>
       <a href="/#team">OUR TEAM</a>
-      <a href="/">UPCOMING EVENTS</a>
+      <a href="/upcoming-events">UPCOMING EVENTS</a>
       <!-- <a href="/past-events">PAST EVENTS</a> -->
       <li class="dropdown">
-        <a href="/past-events" class="dropdown-toggle">
+        <a class="dropdown-toggle">
           PAST EVENTS <i class="fa fa-angle-down"></i>
         </a>
         <ul class="dropdown-menu">
-          <li><a href="/corporate">Corporate Events</a></li>
-          <li><a href="/community">Community Events</a></li>
+          <li><a href="/past-events/corporate">Corporate Events</a></li>
+          <li><a href="/past-events/community">Community Events</a></li>
         </ul>
       </li>
       <a href="/#contact">CONTACT US</a>
@@ -65,12 +65,12 @@
     <a href="/upcoming-events">UPCOMING EVENTS</a>
     <!-- <a href="/past-events">PAST EVENTS</a> -->
     <li class="mobile-dropdown">
-      <a href="#" class="mobile-dropdown-toggle">
+      <a class="mobile-dropdown-toggle">
         PAST EVENTS <i class="fa fa-angle-down"></i>
       </a>
       <ul class="mobile-submenu">
-        <li><a href="/past-events#corporate">Corporate Events</a></li>
-        <li><a href="/past-events#community">Community Events</a></li>
+        <li><a href="/past-events/corporate">Corporate Events</a></li>
+        <li><a href="/past-events/community">Community Events</a></li>
       </ul>
     </li>
     <a href="/#contact">CONTACT US</a>

@@ -37,3 +37,11 @@ Route::get('/SLCL-Masters-T10-Fiesta', function () {
 Route::get('/SLCL-Season-VI', function () {
     return view('SLCL-Season-VI');
 });
+
+Route::get('/past-events/corporate', function () {
+    return view('corporate');
+});
+
+Route::get('/past-events/community', function () {
+    return view('community');
+});
