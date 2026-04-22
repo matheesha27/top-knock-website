@@ -168,22 +168,22 @@ document.querySelectorAll('.mobile-dropdown-toggle').forEach(function (item) {
     });
 });
 
-const track = document.getElementById('eventTrack');
-const images = document.querySelectorAll('.event-img');
+document.querySelectorAll('.event-gallery').forEach((gallery) => {
 
-let index = 0;
-const visibleCount = 2; // show 2 at a time
-const totalSlides = Math.ceil(images.length / visibleCount);
+    const track = gallery.querySelector('.event-track');
+    const images = gallery.querySelectorAll('.event-img');
 
-function slideEvents() {
-    index++;
+    let index = 0;
+    const visibleCount = 2;
+    const totalSlides = Math.ceil(images.length / visibleCount);
 
-    if (index >= totalSlides) {
-        index = 0; // loop back
+    function slide() {
+        index++;
+        if (index >= totalSlides) {
+            index = 0;
+        }
+        track.style.transform = `translateX(-${index * 100}%)`;
     }
 
-    track.style.transform = `translateX(-${index * 100}%)`;
-}
-
-// change every 4 seconds
-setInterval(slideEvents, 4000);
+    setInterval(slide, 4000); // 4 seconds
+});

@@ -105,7 +105,7 @@ p {
 /* Auto slide */
 @media (max-width: 768px) {
     .event-img {
-        width: 100%; /* show 1 image on mobile */
+        width: 100%;
     }
 }
 
