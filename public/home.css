@@ -431,6 +431,14 @@ img {
     margin-bottom: 4px;
 }
 
+.member .qualification {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #bbb;
+    margin-bottom: 6px;
+}
+
 .member .role {
     font-size: 14px;
     color: #bbb;
@@ -710,7 +718,7 @@ img {
 }
 
 .logo img {
-    height: 100px;
+    height: 120px;
     transition: 0.3s;
 }
 

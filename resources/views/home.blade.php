@@ -189,19 +189,8 @@
                     <div class="header-line">
                         <div>
                             <h4>Manju Abeysekera</h4>
+                            <div class="qualification">MBA - AUSTRALIA, CIM, ICC CRICKET COACHING LEVEL II</div>
                             <div class="role">(Founder & CEO)</div>
-                        </div>
-
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com/manju.abeysekera/?igshid=MzRlODBiNWFlZA%3D%3D">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/manju.abeysekera?mibextid=LQQJ4d">
-                                <i class="fa fa-facebook-f"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/manju-abeysekera-mba-597bb728">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
                         </div>
                     </div>
 
@@ -211,7 +200,7 @@
                     </p>
 
                     <p class="bio">
-                        Manju’s experience spans over 16 years in UAE where he has created a name in the market
+                        Manju’s experience spans over 19 years in UAE where he has created a name in the market
                         for his professionalism, standards, trust and innovation. He has got vast experience
                         working with Cricket Academies, Clubs & Franchises in UAE and Sri Lanka.
                     </p>
@@ -240,15 +229,8 @@
                     <div class="header-line">
                         <div>
                             <h4>Rangika Thilakawardena</h4>
+                            <div class="qualification">MBA - SWITZERLAND</div>
                             <div class="role">(Managing Director)</div>
-                        </div>
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
-                                    class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                     <p class="bio">
@@ -283,14 +265,8 @@
                     <div class="header-line">
                         <div>
                             <h4>Nimesh Jayawardena</h4>
+                            <div class="qualification">ACMA, CGMA, ACIM, MBA</div>
                             <div class="role">(Head of Operations & Finance)</div>
-                        </div>
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com/slcluae/"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/nimesh.jayawardana.9?mibextid=LQQJ4d"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/in/nimesh-jayawardena-acma-cgma-acim-mba-67a07839/"><i
-                                    class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                     <p class="bio">
@@ -325,24 +301,15 @@
                     <div class="header-line">
                         <div>
                             <h4>Nikhila Rajakaruna</h4>
+                            <div class="qualification">Masters in Digital Marketing - MY, International Business - UK, CIMA</div>
                             <div class="role">(Head of Marketing)</div>
-                        </div>
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
-                                    class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                     <p class="bio">
-                        Qualified Administrator, Finance Manager in profession. Rangika holds high abilities
-                        in Managing Overall Operations with lean processes & principles.
+                        Is a high impact marketing leader with a distinguished careerbbuilt on the pillars or strategic foresight, brand transformation, and data-driven growth.
                     </p>
                     <p class="bio">
-                        Over 14 years UAE experience in different organizations has led Rangika to be an outshined
-                        individual who can drive a company to its success.
+                        As a seasoned expert in the corporate landscape, Nikhila specializes in bridging the gap between creative storytelling and commercial scalability.
                     </p>
                     <!-- Contact Section -->
                     <div class="header-line">
@@ -362,7 +329,7 @@
             <!-- Member 5 -->
             <article class="member">
                 <div class="photo">
-                    <img src="images/member-2.png" alt="Rangika Thilakawardena">
+                    <img src="images/member-5.png" alt="Rangika Thilakawardena">
                 </div>
                 <div class="content">
                     <div class="header-line">
@@ -370,22 +337,12 @@
                             <h4>Sehan Kavinda</h4>
                             <div class="role">(Director of Photography - Top-knock Studios)</div>
                         </div>
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
-                                    class="fa fa-linkedin"></i></a>
-                        </div>
                     </div>
                     <p class="bio">
-                        Qualified Administrator, Finance Manager in profession. Rangika holds high abilities
-                        in Managing Overall Operations with lean processes & principles.
+                        Visual storyteller and photographer with over a decade of experience behind the lens, Sehan Kavinda has established himself as a master of light, composition, and timing.
                     </p>
                     <p class="bio">
-                        Over 14 years UAE experience in different organizations has led Rangika to be an outshined
-                        individual who can drive a company to its success.
+                        His work is defined by a rare ability to blend technical precision with raw emotional resonance, capturing moments that feel both cinematic and deeply personal.
                     </p>
                     <!-- Contact Section -->
                     <div class="header-line">
@@ -405,37 +362,28 @@
             <!-- Member 6 -->
             <article class="member">
                 <div class="photo">
-                    <img src="images/member-2.png" alt="Rangika Thilakawardena">
+                    <img src="images/member-6.png" alt="Rangika Thilakawardena">
                 </div>
                 <div class="content">
                     <div class="header-line">
                         <div>
                             <h4>Chemila Obeysekere</h4>
+                            <div class="qualification">Bachelor of Management Studies - Specialized in Accounting and Finance</div>
                             <div class="role">(Manager - Operations)</div>
-                        </div>
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com/rangikathilakawardena/?igshid=MzRlODBiNWFlZA%3D%3D"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/rangika.thilakawardena?mibextid=LQQJ4d"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/in/rangika-thilakawardena-40a84674/"><i
-                                    class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                     <p class="bio">
-                        Qualified Administrator, Finance Manager in profession. Rangika holds high abilities
-                        in Managing Overall Operations with lean processes & principles.
+                        With a career built on a diverse foundation of cross-industry expertise, Chemila brings a unique perspective to operational efficiency, blending high-level strategic planning with a hands-on approach to execution. His professional journey is defined by a successful track record in sales and marketing within the competitive export industries, where he developed a keen ability to navigate global market trends and foster international client relationships.
                     </p>
                     <p class="bio">
-                        Over 14 years UAE experience in different organizations has led Rangika to be an outshined
-                        individual who can drive a company to its success.
+                        This background is complemented by a deep-rooted experience in Sri Lanka's Tourism sector, a field that honed his skills in service excellence, crisis management, complex logistical cordination.
                     </p>
                     <!-- Contact Section -->
                     <div class="header-line">
                         <h5>Contact</h5>
                         <p>
                             <i class="fa fa-phone"></i>
-                            <a href="tel:+971553760772">+971 55 376 0772</a>
+                            <a href="tel:+971558380176">+971 55 838 0176</a>
                         </p>
                         <p>
                             <i class="fa fa-envelope"></i>
