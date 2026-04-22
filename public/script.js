@@ -167,3 +167,23 @@ document.querySelectorAll('.mobile-dropdown-toggle').forEach(function (item) {
         this.parentElement.classList.toggle('active');
     });
 });
+
+const track = document.getElementById('eventTrack');
+const images = document.querySelectorAll('.event-img');
+
+let index = 0;
+const visibleCount = 2; // show 2 at a time
+const totalSlides = Math.ceil(images.length / visibleCount);
+
+function slideEvents() {
+    index++;
+
+    if (index >= totalSlides) {
+        index = 0; // loop back
+    }
+
+    track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+// change every 4 seconds
+setInterval(slideEvents, 4000);

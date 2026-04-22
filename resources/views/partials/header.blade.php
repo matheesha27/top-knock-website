@@ -29,8 +29,8 @@
           PAST EVENTS <i class="fa fa-angle-down"></i>
         </a>
         <ul class="dropdown-menu">
-          <li><a href="/past-events/corporate">Corporate Events</a></li>
-          <li><a href="/past-events/community">Community Events</a></li>
+          <li><a href="/past-events-corporate">Corporate Events</a></li>
+          <li><a href="/past-events-community">Community Events</a></li>
         </ul>
       </li>
       <a href="/#contact">CONTACT US</a>
@@ -69,8 +69,8 @@
         PAST EVENTS <i class="fa fa-angle-down"></i>
       </a>
       <ul class="mobile-submenu">
-        <li><a href="/past-events/corporate">Corporate Events</a></li>
-        <li><a href="/past-events/community">Community Events</a></li>
+        <li><a href="/past-events-corporate">Corporate Events</a></li>
+        <li><a href="/past-events-community">Community Events</a></li>
       </ul>
     </li>
     <a href="/#contact">CONTACT US</a>

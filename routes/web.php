@@ -38,10 +38,10 @@ Route::get('/SLCL-Season-VI', function () {
     return view('SLCL-Season-VI');
 });
 
-Route::get('/past-events/corporate', function () {
-    return view('corporate');
+Route::get('/past-events-corporate', function () {
+    return view('past-events-corporate');
 });
 
-Route::get('/past-events/community', function () {
-    return view('community');
+Route::get('/past-events-community', function () {
+    return view('past-events-community');
 });
