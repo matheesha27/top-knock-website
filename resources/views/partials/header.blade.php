@@ -9,16 +9,16 @@
       <a href="/about-us">ABOUT US</a>
       <!-- <a href="/our-services">OUR SERVICES</a> -->
       <li class="dropdown">
-          <a href="#" class="dropdown-toggle">
+          <a class="dropdown-toggle">
             OUR SERVICES <i class="fa fa-angle-down"></i>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="/services#events">Sports Events</a></li>
-            <li><a href="/services#tour">Sports Tours</a></li>
-            <li><a href="/services#training">Sports Education & Training Camps</a></li>
-            <li><a href="/services#clothing">Sports Clothing</a></li>
-            <li><a href="/services#media">Social Media Marketing</a></li>
-            <li><a href="/services#photography">Photography & Videography</a></li>
+            <li><a href="/service-events">Sports Events</a></li>
+            <li><a href="/service-tours">Sports Tours</a></li>
+            <li><a href="/service-education">Sports Education & Training Camps</a></li>
+            <li><a href="/service-clothing">Sports Clothing</a></li>
+            <li><a href="/service-media">Social Media Marketing</a></li>
+            <li><a href="/service-photography">Photography & Videography</a></li>
           </ul>
       </li>
       <a href="/#team">OUR TEAM</a>

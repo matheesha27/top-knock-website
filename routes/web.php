@@ -45,3 +45,27 @@ Route::get('/past-events-corporate', function () {
 Route::get('/past-events-community', function () {
     return view('past-events-community');
 });
+
+Route::get('/service-events', function () {
+    return view('/service-events');
+});
+
+Route::get('/service-tours', function () {
+    return view('/service-tours');
+});
+
+Route::get('/service-education', function () {
+    return view('/service-education');
+});
+
+Route::get('/service-clothing', function () {
+    return view('/service-clothing');
+});
+
+Route::get('/service-media', function () {
+    return view('/service-media');
+});
+
+Route::get('/service-photography', function () {
+    return view('/service-photography');
+});
