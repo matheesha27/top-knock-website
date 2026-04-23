@@ -156,14 +156,15 @@ html {
     position: relative;
 }
 
-/* hidden by default */
+/* keep menu always present (not display:none) */
 .dropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 100%;              /* directly under parent */
     left: 0;
     background: #000;
     min-width: 220px;
-    padding: 8px 0;
+    padding: 10px 0;
+    margin-top: -2px;
 
     opacity: 0;
     visibility: hidden;
@@ -174,7 +175,7 @@ html {
     z-index: 999;
 }
 
-/* show on hover (desktop only) */
+/* show on hover */
 @media (min-width: 769px) {
     .dropdown:hover .dropdown-menu {
         opacity: 1;
@@ -194,7 +195,7 @@ html {
 }
 
 .dropdown-menu li a:hover {
-    background: #ffcc00;
+    background: #ff41b3;
     color: #000;
 }
 

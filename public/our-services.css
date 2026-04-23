@@ -1,5 +1,5 @@
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Oswald", Helvetica, sans-serif;
     background: #1a1a2e;
     color: #e0e0e0;
     margin: 0;
@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 .services-banner-text h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", Helvetica, sans-serif;
     font-size: 2.5rem;
     color: #fff;
     margin: 0;
@@ -70,7 +70,7 @@ body {
 }
 
 .service-box h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", Helvetica, sans-serif;
     font-size: 1rem;
     margin-bottom: 15px;
     color: #fff;
@@ -89,6 +89,166 @@ body {
 }
 .service-list li {
     margin-bottom: 8px;
+}
+
+.service-page {
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+
+/* HERO - FIXED FOR LOGO */
+.service-hero {
+    background: #1b2138;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.service-hero img {
+    max-width: 300px;   /* control size */
+    width: 100%;
+    height: auto;       /* IMPORTANT: no cropping */
+    object-fit: contain; /* ensures full logo shows */
+}
+
+/* FLEX WRAPPER */
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* ✅ spreads logo + text */
+    gap: 60px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* LOGO */
+.hero-logo img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* TEXT */
+.hero-text {
+    color: #fff;
+    text-align: left; /* ✅ important for desktop */
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+    color: #ccc;
+}
+
+/* CONTENT */
+.service-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* HEADER */
+.service-header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.service-header h2 {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/* DESCRIPTION */
+.service-description {
+    margin-top: 20px;
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+/* FEATURES */
+.service-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature {
+    background: #d5074d;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.feature i {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+/* CTA */
+.service-cta {
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.service-cta a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #d5074d;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .service-features {
+        grid-template-columns: 1fr;
+    }
+
+    .service-header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .hero-inner {
+        flex-direction: column; /* stack */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .hero-logo img {
+        max-width: 220px;
+    }
+}
+
+.btn.primary {
+    background: var(--color2);
+    color: #fff;
+}
+
+.btn.primary:hover {
+    opacity: .9;
+    background: black
 }
 
 @media (max-width: 768px) {

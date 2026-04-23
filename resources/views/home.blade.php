@@ -295,7 +295,7 @@
             <!-- Member 4 -->
             <article class="member">
                 <div class="photo">
-                    <img src="images/member-2.png" alt="Rangika Thilakawardena">
+                    <img src="images/member-4.png" alt="Nikhila Rajakaruna">
                 </div>
                 <div class="content">
                     <div class="header-line">
@@ -329,7 +329,7 @@
             <!-- Member 5 -->
             <article class="member">
                 <div class="photo">
-                    <img src="images/member-5.png" alt="Rangika Thilakawardena">
+                    <img src="images/member-5.png" alt="Sehan Kavinda">
                 </div>
                 <div class="content">
                     <div class="header-line">
@@ -362,7 +362,7 @@
             <!-- Member 6 -->
             <article class="member">
                 <div class="photo">
-                    <img src="images/member-6.png" alt="Rangika Thilakawardena">
+                    <img src="images/member-6.png" alt="Chemila Obeysekere">
                 </div>
                 <div class="content">
                     <div class="header-line">

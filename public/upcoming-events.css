@@ -107,3 +107,47 @@ body {
         text-align: center;
     }
 }
+
+.table-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.quater-title {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.events-table th {
+    background: #111;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.events-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.events-table tr:hover {
+    background: #d5074d;
+    transition: 0.2s;
+}
+

@@ -37,3 +37,35 @@ Route::get('/SLCL-Masters-T10-Fiesta', function () {
 Route::get('/SLCL-Season-VI', function () {
     return view('SLCL-Season-VI');
 });
+
+Route::get('/past-events-corporate', function () {
+    return view('past-events-corporate');
+});
+
+Route::get('/past-events-community', function () {
+    return view('past-events-community');
+});
+
+Route::get('/service-events', function () {
+    return view('/service-events');
+});
+
+Route::get('/service-tours', function () {
+    return view('/service-tours');
+});
+
+Route::get('/service-education', function () {
+    return view('/service-education');
+});
+
+Route::get('/service-clothing', function () {
+    return view('/service-clothing');
+});
+
+Route::get('/service-media', function () {
+    return view('/service-media');
+});
+
+Route::get('/service-photography', function () {
+    return view('/service-photography');
+});
