@@ -452,6 +452,16 @@ img {
     margin-bottom: 12px;
 }
 
+@media (max-width: 768px) {
+    .header-line {
+        flex-direction: column;   /* stack items */
+        align-items: flex-start;  /* align left */
+        gap: 4px;                 /* spacing between items */
+        line-height: 1;
+        margin: 2px 0;
+    }
+}
+
 .header-line h4 {
     font-size: 20px;
     font-weight: 600;

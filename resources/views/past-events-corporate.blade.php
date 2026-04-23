@@ -53,6 +53,114 @@
             </div>
         </div>
 
+        <!-- Event 2 -->
+        <div class="event-gallery">
+            <h1>Kamel Pay Azizi Fun Fiesta</h1>
+            <div class="event-track" id="eventTrack">
+
+                @php
+                    $images = glob(public_path('images/past-event-6/*.jpg'));
+                @endphp
+
+                @foreach ($images as $img)
+                    <div class="event-img">
+                        <img src="{{ asset('images/past-event-6/' . basename($img)) }}">
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-gallery">
+            <h1>Emirates Airlines Sports Carnival</h1>
+            <div class="event-track" id="eventTrack">
+
+                @php
+                    $images = glob(public_path('images/past-event-7/*.jpg'));
+                @endphp
+
+                @foreach ($images as $img)
+                    <div class="event-img">
+                        <img src="{{ asset('images/past-event-7/' . basename($img)) }}">
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
+
+        <!-- Event 4 -->
+        <div class="event-gallery">
+            <h1>GNN Shipping Conference</h1>
+            <div class="event-track" id="eventTrack">
+
+                @php
+                    $images = glob(public_path('images/past-event-8/*.jpg'));
+                @endphp
+
+                @foreach ($images as $img)
+                    <div class="event-img">
+                        <img src="{{ asset('images/past-event-8/' . basename($img)) }}">
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
+
+        <!-- Event 5 -->
+        <div class="event-gallery">
+            <h1>Silkway Airlines Iftar</h1>
+            <div class="event-track" id="eventTrack">
+
+                @php
+                    $images = glob(public_path('images/past-event-9/*.jpg'));
+                @endphp
+
+                @foreach ($images as $img)
+                    <div class="event-img">
+                        <img src="{{ asset('images/past-event-9/' . basename($img)) }}">
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
+
+        <!-- Event 6 -->
+        <div class="event-gallery">
+            <h1>Ignite. PIMA Global conference</h1>
+            <div class="event-track" id="eventTrack">
+
+                @php
+                    $images = glob(public_path('images/past-event-10/*.jpg'));
+                @endphp
+
+                @foreach ($images as $img)
+                    <div class="event-img">
+                        <img src="{{ asset('images/past-event-10/' . basename($img)) }}">
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
+
+        <!-- Event 7 -->
+        <div class="event-gallery">
+            <h1>Commercial Bank BIZ Show</h1>
+            <div class="event-track" id="eventTrack">
+
+                @php
+                    $images = glob(public_path('images/past-event-11/*.jpg'));
+                @endphp
+
+                @foreach ($images as $img)
+                    <div class="event-img">
+                        <img src="{{ asset('images/past-event-11/' . basename($img)) }}">
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
+
         <!-- Past Events List
         <div class="event-list">
             <h1 style="text-align: left;">Past Events</h1>

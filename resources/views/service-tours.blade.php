@@ -30,12 +30,11 @@
             <div class="hero-inner">
                 <!-- LOGO -->
                 <div class="hero-logo">
-                    <img src="images/sports-tours.png" alt="Sports Tours Logo">
+                    <img src="images/logos/sports-tours.png" alt="Sports Tours Logo">
                 </div>
                 <!-- TEXT -->
                 <div class="hero-text">
                     <h1>SPORTS TOURS</h1>
-                    <h2>Sports Tour Management</h2>
                 </div>
             </div>
         </div>
@@ -50,7 +49,6 @@
                 the unique demands of competitive sports.
             </p>
 
-            FEATURES
             <div class="service-features">
                 <div class="feature">
                     <i class="fa fa-plane"></i>
