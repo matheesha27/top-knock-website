@@ -167,3 +167,23 @@ document.querySelectorAll('.mobile-dropdown-toggle').forEach(function (item) {
         this.parentElement.classList.toggle('active');
     });
 });
+
+document.querySelectorAll('.event-gallery').forEach((gallery) => {
+
+    const track = gallery.querySelector('.event-track');
+    const images = gallery.querySelectorAll('.event-img');
+
+    let index = 0;
+    const visibleCount = 2;
+    const totalSlides = Math.ceil(images.length / visibleCount);
+
+    function slide() {
+        index++;
+        if (index >= totalSlides) {
+            index = 0;
+        }
+        track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    setInterval(slide, 4000); // 4 seconds
+});
