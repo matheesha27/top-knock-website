@@ -56,31 +56,31 @@
             <a class="tile tile2" href="#services" id="services">
                 <div class="overlay"></div>
                 <div class="content left">
-                    <h3>Sports <br class="desktop-only">Services</h3>
+                    <h3>Sports <br class="desktop-only">Tours</h3>
                 </div>
             </a>
             <a class="tile tile1" href="#events">
                 <div class="overlay"></div>
                 <div class="content right">
-                    <h3>Category <br class="desktop-only">3</h3>
+                    <h3>Sports Education <br class="desktop-only">& Training Camps</h3>
                 </div>
             </a>
             <a class="tile tile2" href="#events">
                 <div class="overlay"></div>
                 <div class="content left">
-                    <h3>Category <br class="desktop-only">4</h3>
+                    <h3>Sports <br class="desktop-only">Clothing</h3>
                 </div>
             </a>
             <a class="tile tile1" href="#events">
                 <div class="overlay"></div>
                 <div class="content right">
-                    <h3>Category <br class="desktop-only">5</h3>
+                    <h3>Social Media <br class="desktop-only">Marketing</h3>
                 </div>
             </a>
             <a class="tile tile2" href="#events">
                 <div class="overlay"></div>
                 <div class="content left">
-                    <h3>Category <br class="desktop-only">6</h3>
+                    <h3>Photography & <br class="desktop-only">Videography</h3>
                 </div>
             </a>
         </div>
