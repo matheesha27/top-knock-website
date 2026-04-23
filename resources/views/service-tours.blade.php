@@ -28,18 +28,15 @@
 
         <div class="service-hero">
             <div class="hero-inner">
-
                 <!-- LOGO -->
                 <div class="hero-logo">
-                    <img src="images/sports-tours.jpeg" alt="Sports Tours Logo">
+                    <img src="images/sports-tours.png" alt="Sports Tours Logo">
                 </div>
-
                 <!-- TEXT -->
                 <div class="hero-text">
                     <h1>SPORTS TOURS</h1>
                     <h2>Sports Tour Management</h2>
                 </div>
-
             </div>
         </div>
         
@@ -53,7 +50,7 @@
                 the unique demands of competitive sports.
             </p>
 
-            <!-- FEATURES
+            FEATURES
             <div class="service-features">
                 <div class="feature">
                     <i class="fa fa-plane"></i>
@@ -72,12 +69,14 @@
                     <h4>Match Arrangements</h4>
                     <p>Organizing friendly and competitive matches.</p>
                 </div>
-            </div> -->
+            </div>
 
             <!-- CTA -->
             <div class="service-cta">
                 <h3>Plan Your Next Tour With Us</h3>
-                <a href="/#contact">Contact Us</a>
+                <div class="hero-btn">
+                    <a href="/#contact" class="btn primary">Contact Us</a>
+                </div>
             </div>
 
         </div>
