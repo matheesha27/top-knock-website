@@ -72,7 +72,6 @@
                 </div>
             </div>
 
-            CTA
             <div class="service-cta">
                 <h3>Join Us</h3>
                 <div class="hero-btn">
