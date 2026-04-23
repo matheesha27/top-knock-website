@@ -107,3 +107,43 @@ body {
         text-align: center;
     }
 }
+
+.table-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.events-table th {
+    background: #111;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.events-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.events-table tr:hover {
+    background: #f5f5f5;
+    transition: 0.2s;
+}
+
+/* zebra stripes */
+.events-table tbody tr:nth-child(even) {
+    background: #fafafa;
+}
