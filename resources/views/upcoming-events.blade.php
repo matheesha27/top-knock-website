@@ -35,30 +35,40 @@
     <section class="events-content">
         <h2 class="table-title">Upcoming Event Schedule</h2>
 
+        <h2 class="quater-title">Q2 2026</h2>
         <div class="table-wrapper">
             <table class="events-table">
-                <thead>
-                    <tr>
-                        <th>Event #</th>
-                        <th>Event Name</th>
-                        <th>Time</th>
-                    </tr>
-                </thead>
                 <tbody>
-                    <tr><td>1</td><td>SLCL Provincial League (Season 2)</td><td>Q2 2026</td></tr>
-                    <tr><td>2</td><td>Top Knock T22 Super League</td><td>-</td></tr>
-                    <tr><td>3</td><td>Top Knock Insurance League</td><td>-</td></tr>
-                    <tr><td>4</td><td>Top Knock Engineers League</td><td>-</td></tr>
-                    <tr><td>5</td><td>Top Knock Bankers League</td><td>-</td></tr>
-                    <tr><td>6</td><td>Peterite Indoor Sports Carnival (15th Edition)</td><td>-</td></tr>
-                    <tr><td>7</td><td>Top Knock U25 Asian Cup</td><td>Q3 2026</td></tr>
-                    <tr><td>8</td><td>Top Knock Rising League</td><td>-</td></tr>
-                    <tr><td>9</td><td>Top Knock Pro Division</td><td>Q4 2026</td></tr>
-                    <tr><td>10</td><td>SLCL Club League (Season IX)</td><td>-</td></tr>
-                    <tr><td>11</td><td>Top Knock Premier 40 Series</td><td>-</td></tr>
-                    <tr><td>12</td><td>SLCL Masters League (Season 3)</td><td>-</td></tr>
-                    <tr><td>13</td><td>Top Knock Super Sixes Festival (Open & Masters)</td><td>-</td></tr>
-                    <tr><td>14</td><td>Top Knock Super Sixes</td><td>-</td></tr>
+                    <tr><td>1</td><td>SLCL Provincial League (Season 2)</td></tr>
+                    <tr><td>2</td><td>Top Knock T22 Super League</td></tr>
+                    <tr><td>3</td><td>Top Knock Insurance League</td></tr>
+                    <tr><td>4</td><td>Top Knock Engineers League</td></tr>
+                    <tr><td>5</td><td>Top Knock Bankers League</td></tr>
+                    <tr><td>6</td><td>Peterite Indoor Sports Carnival (15th Edition)</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="quater-title">Q3 2026</h2>
+        <div class="table-wrapper">
+            <table class="events-table">
+                <tbody>
+                    <tr><td>7</td><td>Top Knock U25 Asian Cup</td></tr>
+                    <tr><td>8</td><td>Top Knock Rising League</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="quater-title">Q4 2026</h2>
+        <div class="table-wrapper">
+            <table class="events-table">
+                <tbody>
+                    <tr><td>9</td><td>Top Knock Pro Division</td></tr>
+                    <tr><td>10</td><td>SLCL Club League (Season IX)</td></tr>
+                    <tr><td>11</td><td>Top Knock Premier 40 Series</td></tr>
+                    <tr><td>12</td><td>SLCL Masters League (Season 3)</td></tr>
+                    <tr><td>13</td><td>Top Knock Super Sixes Festival (Open & Masters)</td></tr>
+                    <tr><td>14</td><td>Top Knock Super Sixes</td></tr>
                 </tbody>
             </table>
         </div>
