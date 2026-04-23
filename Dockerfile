@@ -21,7 +21,9 @@ RUN composer install --no-dev --optimize-autoloader
 
 # Laravel setup
 RUN php artisan key:generate || true
-RUN php artisan config:cache || true
+RUN php artisan config:clear
+RUN php artisan cache:clear
+RUN php artisan storage:link || true
 
 EXPOSE 10000
 
