@@ -641,22 +641,18 @@
         <div class="logo-slider">
             <div class="logo-track">
                 <!-- original logos -->
-                @for ($i = 1; $i <= 16; $i++)
+                @for ($i = 1; $i <= 21; $i++)
                     <div class="logo">
                         <img src="{{ asset('images/clients/' . $i . '.jpg') }}" alt="Client {{ $i }}">
                     </div>
                 @endfor
                 <!-- duplicate logos (important for seamless loop) -->
-                @for ($i = 1; $i <= 16; $i++)
+                @for ($i = 1; $i <= 21; $i++)
                     <div class="logo">
                         <img src="{{ asset('images/clients/' . $i . '.jpg') }}" alt="Client {{ $i }}">
                     </div>
                 @endfor
             </div>
-        </div>
-        <div class="maxw" style="text-align:center; padding-bottom:24px;margin-top:24px">
-            <a href="{{ asset('Our Partners.pdf') }}" target="_blank" class="btn"
-                style="border-color:#7f86a6;color:#cbd0e6">View More...</a>
         </div>
     </section>
 

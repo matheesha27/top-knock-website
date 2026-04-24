@@ -27,7 +27,7 @@
                     <i class="fa fa-facebook-f"></i>
                 </a>
 
-                <a href="https://www.youtube.com/@topknock" target="_blank" rel="noopener" aria-label="YouTube">
+                <a href="https://www.youtube.com/@TOP-KNOCK" target="_blank" rel="noopener" aria-label="YouTube">
                     <i class="fa fa-youtube-play"></i>
                 </a>
 

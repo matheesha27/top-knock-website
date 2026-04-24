@@ -193,13 +193,16 @@ img {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    padding-left: 10%;
 }
 
 .tile2 {
     background-image: url('/images/tile2.png');
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    padding-right: 10%;
 }
 
 /* overlay */
@@ -437,10 +440,11 @@ img {
     font-style: italic;
     color: #bbb;
     margin-bottom: 6px;
+    margin-top: 6px;
 }
 
 .member .role {
-    font-size: 14px;
+    font-size: 20px;
     color: #bbb;
     margin-bottom: 12px;
 }
@@ -454,11 +458,16 @@ img {
 
 @media (max-width: 768px) {
     .header-line {
-        flex-direction: column;   /* stack items */
-        align-items: flex-start;  /* align left */
-        gap: 4px;                 /* spacing between items */
-        line-height: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
         margin: 2px 0;
+    }
+
+    .header-line p,
+    .header-line span {
+        margin: 0;          /* remove default spacing */
+        line-height: 1.1;   /* tighter but still readable */
     }
 }
 
@@ -466,6 +475,7 @@ img {
     font-size: 20px;
     font-weight: 600;
     margin: 0;
+    color: #d5074d;
 }
 
 .header-line .role {
