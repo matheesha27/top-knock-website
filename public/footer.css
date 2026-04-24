@@ -55,6 +55,25 @@
   font-size: 28px;
 }
 
+.social a img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.social a.tiktok img {
+  filter: brightness(0); /* makes icon black like others */
+}.social a img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.social a.tiktok img {
+  filter: brightness(0); /* makes icon black like others */
+  width: 18px;
+  height: 18px;
+}
 
 form {
     padding: 14px;
@@ -104,6 +123,9 @@ form {
 }
 
 @media (max-width:800px) {
+    #contact {
+        scroll-margin-top: 80px; /* slightly bigger for mobile */
+    }
     .contact .wrap {
         grid-template-columns: 1fr
     }

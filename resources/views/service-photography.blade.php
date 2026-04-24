@@ -74,6 +74,11 @@
                 </div>
             </div>
 
+            <div class="maxw" style="text-align:center; padding-bottom:24px;margin-top:24px">
+                <a href="{{ asset('digital-profile.pdf') }}" target="_blank" class="btn"
+                    style="border-color:#7f86a6;color:#cbd0e6">Find the Profile here...</a>
+            </div>
+
             <!-- CTA -->
             <div class="service-cta">
                 <h3>We catch you through the lens!</h3>

@@ -35,6 +35,7 @@
     <section class="events-content">
         <h2 class="table-title">Upcoming Event Schedule</h2>
 
+        <!-- Q2 -->
         <h2 class="quater-title">Q2 2026</h2>
         <div class="table-wrapper">
             <table class="events-table">
@@ -49,6 +50,7 @@
             </table>
         </div>
 
+        <!-- Q3 -->
         <h2 class="quater-title">Q3 2026</h2>
         <div class="table-wrapper">
             <table class="events-table">
@@ -59,12 +61,13 @@
             </table>
         </div>
 
+        <!-- Q4 -->
         <h2 class="quater-title">Q4 2026</h2>
         <div class="table-wrapper">
             <table class="events-table">
                 <tbody>
                     <tr><td>9</td><td>Top Knock Pro Division</td></tr>
-                    <tr><td>10</td><td>SLCL Club League (Season IX)</td></tr>
+                    <tr><td>10</td><td>SLCL Club League (Season 6)</td></tr>
                     <tr><td>11</td><td>Top Knock Premier 40 Series</td></tr>
                     <tr><td>12</td><td>SLCL Masters League (Season 3)</td></tr>
                     <tr><td>13</td><td>Top Knock Super Sixes Festival (Open & Masters)</td></tr>

@@ -125,6 +125,10 @@
                             class="fa fa-youtube-play"></i></a>
                     <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener"
                         aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                    <!-- TikTok (fallback text or upgrade FA) -->
+                    <a href="https://www.tiktok.com/@topknock44?_r=1&_t=ZS-95WpdoZazje" target="_blank" rel="noopener" aria-label="TikTok">
+                        <img src="images/tiktok-icon.png">
+                    </a>
                 </div>
             </div>
         </div>

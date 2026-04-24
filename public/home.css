@@ -990,6 +990,9 @@ img {
     }
 
     @media (max-width: 768px) {
+        #team {
+            scroll-margin-top: 100px; /* slightly bigger for mobile */
+        }
     .team h3.title {
         font-size: 24px; /* reduce from 32px */
     }
@@ -1011,4 +1014,14 @@ img {
         line-height: 1.6;
         padding: 0 12px;
     }
+}
+
+#team {
+  scroll-margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  #team {
+    scroll-margin-top: 100px; /* slightly bigger for mobile */
+  }
 }

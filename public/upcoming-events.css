@@ -142,8 +142,13 @@ body {
 }
 
 .events-table td {
-    padding: 12px;
+    padding: 10px;
+    text-align: left;
     border-bottom: 1px solid #ddd;
+}
+
+.events-table td:first-child {
+    width: 60px;   /* keeps numbers aligned */
 }
 
 .events-table tr:hover {

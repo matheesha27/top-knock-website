@@ -36,8 +36,8 @@
                 </a>
 
                 <!-- TikTok (fallback text or upgrade FA) -->
-                <a href="https://www.tiktok.com/@topknock" target="_blank" rel="noopener" aria-label="TikTok">
-                    <span style="font-weight:bold; font-size:14px;">TT</span>
+                <a href="https://www.tiktok.com/@topknock44?_r=1&_t=ZS-95WpdoZazje" target="_blank" rel="noopener" aria-label="TikTok">
+                    <img src="images/tiktok-icon.png" alt="TikTok">
                 </a>
             </div>
         </div>
