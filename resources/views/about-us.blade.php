@@ -119,11 +119,11 @@
             <div class="contact-box">
                 <h4>Follow</h4>
                 <div class="social-icons" style="display: block;">
-                    <a href="https://www.facebook.com/topknock" target="_blank" rel="noopener" aria-label="Facebook"><i
+                    <a href="https://www.facebook.com/topknockuae" target="_blank" rel="noopener" aria-label="Facebook"><i
                             class="fa fa-facebook-f "></i></a>
-                    <a href="https://www.youtube.com/@topknock" target="_blank" rel="noopener" aria-label="YouTube"><i
+                    <a href="https://www.youtube.com/@TOP-KNOCK" target="_blank" rel="noopener" aria-label="YouTube"><i
                             class="fa fa-youtube-play"></i></a>
-                    <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener"
+                    <a href="https://www.instagram.com/topknock_sports/" target="_blank" rel="noopener"
                         aria-label="Instagram"><i class="fa fa-instagram"></i></a>
                     <!-- TikTok (fallback text or upgrade FA) -->
                     <a href="https://www.tiktok.com/@topknock44?_r=1&_t=ZS-95WpdoZazje" target="_blank" rel="noopener" aria-label="TikTok">

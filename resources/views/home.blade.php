@@ -100,11 +100,11 @@
                 </p>
                 <a href="/about-us" class="btn primary">Learn More</a>
 
-                <div class="socials">
+                <!-- <div class="socials">
                     <a href="#"><i class="fa fa-facebook-f"></i></a>
                     <a href="#"><i class="fa fa-youtube-play"></i></a>
                     <a href="#"><i class="fa fa-instagram"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section> --}}
@@ -128,11 +128,11 @@
                 </p>
                 <a href="/about-us" class="btn primary">Learn More</a>
 
-                <div class="socials">
+                <!-- <div class="socials">
                     <a href="#"><i class="fa fa-facebook-f"></i></a>
                     <a href="#"><i class="fa fa-youtube-play"></i></a>
                     <a href="#"><i class="fa fa-instagram"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

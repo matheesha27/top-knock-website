@@ -75,7 +75,7 @@
             </div>
 
             <div class="maxw" style="text-align:center; padding-bottom:24px;margin-top:24px">
-                <a href="{{ asset('digital-profile.pdf') }}" target="_blank" class="btn"
+                <a href="{{ asset('studios-profile.pdf') }}" target="_blank" class="btn"
                     style="border-color:#7f86a6;color:#cbd0e6">Find the Profile here...</a>
             </div>
 

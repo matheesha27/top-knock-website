@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="social">
-                <a href="https://www.facebook.com/topknock" target="_blank" rel="noopener" aria-label="Facebook">
+                <a href="https://www.facebook.com/topknockuae" target="_blank" rel="noopener" aria-label="Facebook">
                     <i class="fa fa-facebook-f"></i>
                 </a>
 
@@ -31,7 +31,7 @@
                     <i class="fa fa-youtube-play"></i>
                 </a>
 
-                <a href="https://www.instagram.com/topknock/" target="_blank" rel="noopener" aria-label="Instagram">
+                <a href="https://www.instagram.com/topknock_sports/" target="_blank" rel="noopener" aria-label="Instagram">
                     <i class="fa fa-instagram"></i>
                 </a>
 
