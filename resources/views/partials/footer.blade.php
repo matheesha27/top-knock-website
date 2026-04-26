@@ -44,18 +44,23 @@
         <div>
             <form id="contactForm" novalidate>
                 <div class="form-msg" id="formMsg"></div>
+
                 <div class="field">
-                    <input id="name" name="name" placeholder="Name" required />
+                    <input name="name" placeholder="Name" required />
                 </div>
+
                 <div class="field">
-                    <input id="email" name="email" type="email" placeholder="Email" required />
+                    <input name="email" type="email" placeholder="Email" required />
                 </div>
+
                 <div class="field">
-                    <input id="subject" name="subject" type="text" placeholder="Subject" required />
+                    <input name="subject" type="text" placeholder="Subject" required />
                 </div>
+
                 <div class="field">
-                    <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                    <textarea name="message" rows="4" placeholder="Message" required></textarea>
                 </div>
+
                 <div class="actions">
                     <button type="submit">Submit</button>
                 </div>

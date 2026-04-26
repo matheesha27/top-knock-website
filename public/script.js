@@ -121,8 +121,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             var name = form.name.value.trim();
             var email = form.email.value.trim();
+            var subject = form.subject.value.trim();
             var message = form.message.value.trim();
 
+            // Validation
             if (name.length < 2) {
                 msg.textContent = 'Please enter your name.';
                 return;
@@ -134,56 +136,81 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
+            if (subject.length < 2) {
+                msg.textContent = 'Please enter a subject.';
+                return;
+            }
+
             if (message.length < 5) {
                 msg.textContent = 'Please enter a message.';
                 return;
             }
 
-            msg.style.color = '#006400';
-            msg.textContent = 'Thanks! Your message has been sent (demo).';
+            // CSRF token
+            var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-            form.reset();
+            msg.style.color = '#333';
+            msg.textContent = 'Sending...';
 
-            setTimeout(function () {
-                msg.textContent = '';
-            }, 2500);
-        });
+            fetch('/contact-send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': token
+                },
+                body: JSON.stringify({
+                    name: name,
+                    email: email,
+                    subject: subject,
+                    message: message
+                })
+            })
+            .then(res => res.json())
+            .then(data => {
+                msg.style.color = '#006400';
+                msg.textContent = 'Message sent successfully!';
+                form.reset();
+            })
+            .catch(() => {
+                msg.style.color = '#b00040';
+                msg.textContent = 'Something went wrong. Try again.';
+            });
+        })
     })();
 
-});
+    document.querySelectorAll('.mega-toggle').forEach(item => {
+        item.addEventListener('click', function (e) {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                this.parentElement.classList.toggle('active');
+            }
+        });
+    });
 
-document.querySelectorAll('.mega-toggle').forEach(item => {
-    item.addEventListener('click', function (e) {
-        if (window.innerWidth <= 768) {
+    document.querySelectorAll('.mobile-dropdown-toggle').forEach(function (item) {
+        item.addEventListener('click', function (e) {
             e.preventDefault();
             this.parentElement.classList.toggle('active');
-        }
+        });
     });
-});
 
-document.querySelectorAll('.mobile-dropdown-toggle').forEach(function (item) {
-    item.addEventListener('click', function (e) {
-        e.preventDefault();
-        this.parentElement.classList.toggle('active');
-    });
-});
+    document.querySelectorAll('.event-gallery').forEach((gallery) => {
 
-document.querySelectorAll('.event-gallery').forEach((gallery) => {
+        const track = gallery.querySelector('.event-track');
+        const images = gallery.querySelectorAll('.event-img');
 
-    const track = gallery.querySelector('.event-track');
-    const images = gallery.querySelectorAll('.event-img');
+        let index = 0;
+        const visibleCount = 2;
+        const totalSlides = Math.ceil(images.length / visibleCount);
 
-    let index = 0;
-    const visibleCount = 2;
-    const totalSlides = Math.ceil(images.length / visibleCount);
-
-    function slide() {
-        index++;
-        if (index >= totalSlides) {
-            index = 0;
+        function slide() {
+            index++;
+            if (index >= totalSlides) {
+                index = 0;
+            }
+            track.style.transform = `translateX(-${index * 100}%)`;
         }
-        track.style.transform = `translateX(-${index * 100}%)`;
-    }
 
-    setInterval(slide, 4000); // 4 seconds
-});
+        setInterval(slide, 4000); // 4 seconds
+    });
+    });

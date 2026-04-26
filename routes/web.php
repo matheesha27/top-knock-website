@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 Route::get('/', function () {
     return view('home');
@@ -68,4 +70,27 @@ Route::get('/service-media', function () {
 
 Route::get('/service-photography', function () {
     return view('/service-photography');
+});
+
+// =========================
+// CONTACT FORM ROUTE
+// =========================
+Route::post('/contact-send', function (Request $request) {
+
+    $data = $request->validate([
+        'name' => 'required|min:2',
+        'email' => 'required|email',
+        'subject' => 'required|min:2',
+        'message' => 'required|min:5',
+    ]);
+
+    Mail::raw(
+        "Name: {$data['name']}\nEmail: {$data['email']}\nSubject: {$data['subject']}\n\nMessage:\n{$data['message']}",
+        function ($msg) use ($data) {
+            $msg->to('matheesha27@gmail.com')
+                ->subject($data['subject']);
+        }
+    );
+
+    return response()->json(['success' => true]);
 });
