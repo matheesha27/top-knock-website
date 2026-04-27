@@ -87,7 +87,7 @@ Route::post('/contact-send', function (Request $request) {
     Mail::raw(
         "Name: {$data['name']}\nEmail: {$data['email']}\nSubject: {$data['subject']}\n\nMessage:\n{$data['message']}",
         function ($msg) use ($data) {
-            $msg->to('matheesha27@gmail.com')
+            $msg->to('info@top-knock.com')
                 ->subject($data['subject']);
         }
     );
