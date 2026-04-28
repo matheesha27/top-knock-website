@@ -139,3 +139,45 @@ form {
     font-size: 16px;
     letter-spacing: 2px;
 }
+
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #222;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast.success {
+  background: #009f00;
+}
+
+.toast.error {
+  background: #ff0606;
+}
+
+@media (max-width: 768px) {
+  .toast {
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, 20px);
+    bottom: 20px;
+  }
+
+  .toast.show {
+    transform: translate(-50%, 0);
+  }
+}

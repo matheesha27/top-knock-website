@@ -74,4 +74,4 @@
     </div>
 </section>
 
-
+<div id="toast" class="toast"></div>

@@ -127,30 +127,35 @@ document.addEventListener("DOMContentLoaded", function () {
             // Validation
             if (name.length < 2) {
                 msg.textContent = 'Please enter your name.';
+                showToast('Please enter your name', 'error');
                 return;
             }
 
             var emailOK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
             if (!emailOK) {
                 msg.textContent = 'Please enter a valid email.';
+                showToast('Please enter a valid email', 'error');
                 return;
             }
 
             if (subject.length < 2) {
                 msg.textContent = 'Please enter a subject.';
+                showToast('Empty subject', 'error');
                 return;
             }
 
             if (message.length < 5) {
                 msg.textContent = 'Please enter a message.';
+                showToast('Empty message content', 'error');
                 return;
             }
 
             // CSRF token
             var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-            msg.style.color = '#333';
-            msg.textContent = 'Sending...';
+            msg.style.color = '#42ff42';
+            // msg.textContent = 'Sending...';
+            showToast('Sending...!', 'success');
 
             fetch('/contact-send', {
                 method: 'POST',
@@ -167,13 +172,15 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .then(res => res.json())
             .then(data => {
-                msg.style.color = '#006400';
-                msg.textContent = 'Message sent successfully!';
+                msg.style.color = '#42ff42';
+                // msg.textContent = 'Message sent successfully!';
+                showToast('Message sent successfully!', 'success');
                 form.reset();
             })
             .catch(() => {
-                msg.style.color = '#b00040';
-                msg.textContent = 'Something went wrong. Try again.';
+                msg.style.color = '#e80c0c';
+                // msg.textContent = 'Something went wrong. Try again.';
+                showToast('Something went wrong. Try again.', 'error');
             });
         })
     })();
@@ -214,3 +221,15 @@ document.addEventListener("DOMContentLoaded", function () {
         setInterval(slide, 4000); // 4 seconds
     });
     });
+
+    function showToast(message, type = 'success') {
+        var toast = document.getElementById('toast');
+        if (!toast) return;
+
+        toast.textContent = message;
+        toast.className = 'toast show ' + type;
+
+        setTimeout(function () {
+            toast.className = 'toast';
+        }, 3000);
+    }
