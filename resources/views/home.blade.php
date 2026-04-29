@@ -48,37 +48,37 @@
     <!-- Six Tiles -->
     <section class="tiles" id="events">
         <div class="tiles-inner">
-            <a class="tile tile1" href="#events">
+            <a class="tile tile1">
                 <div class="overlay"></div>
                 <div class="content right">
                     <h3>Sports <br class="desktop-only">Events</h3>
                 </div>
             </a>
-            <a class="tile tile2" href="#services" id="services">
+            <a class="tile tile2">
                 <div class="overlay"></div>
                 <div class="content left">
                     <h3>Sports <br class="desktop-only">Tours</h3>
                 </div>
             </a>
-            <a class="tile tile1" href="#events">
+            <a class="tile tile3">
                 <div class="overlay"></div>
                 <div class="content right">
                     <h3>Sports Education <br class="desktop-only">& Training Camps</h3>
                 </div>
             </a>
-            <a class="tile tile2" href="#events">
+            <a class="tile tile4">
                 <div class="overlay"></div>
                 <div class="content left">
                     <h3>Sports <br class="desktop-only">Clothing</h3>
                 </div>
             </a>
-            <a class="tile tile1" href="#events">
+            <a class="tile tile5">
                 <div class="overlay"></div>
                 <div class="content right">
                     <h3>Social Media <br class="desktop-only">Marketing</h3>
                 </div>
             </a>
-            <a class="tile tile2" href="#events">
+            <a class="tile tile6">
                 <div class="overlay"></div>
                 <div class="content left">
                     <h3>Photography & <br class="desktop-only">Videography</h3>
