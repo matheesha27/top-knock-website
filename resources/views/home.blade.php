@@ -190,7 +190,7 @@
                     <div class="header-line">
                         <div>
                             <h4>Manju Abeysekera</h4>
-                            <div class="qualification">MBA - AUSTRALIA, CIM, ICC CRICKET COACHING LEVEL II</div>
+                            <div class="qualification">MBA - AUSTRALIA, ICC CRICKET COACHING LEVEL II</div>
                             <div class="role">(Founder & CEO)</div>
                         </div>
                     </div>
