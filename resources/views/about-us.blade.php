@@ -104,35 +104,6 @@
         </div>
     </section>
 
-    <section class="about-contact">
-        <div class="about-contact-container">
-            <div class="contact-box">
-                <h4>Call</h4>
-                <p>+971 50 632 8350</p>
-            </div>
-
-            <div class="contact-box">
-                <h4>Email</h4>
-                <p><a href="mailto:info@top-knock.com">info@top-knock.com</a></p>
-            </div>
-
-            <div class="contact-box">
-                <h4>Follow</h4>
-                <div class="social-icons" style="display: block;">
-                    <a href="https://www.facebook.com/topknockuae" target="_blank" rel="noopener" aria-label="Facebook"><i
-                            class="fa fa-facebook-f "></i></a>
-                    <a href="https://www.youtube.com/@TOP-KNOCK" target="_blank" rel="noopener" aria-label="YouTube"><i
-                            class="fa fa-youtube-play"></i></a>
-                    <a href="https://www.instagram.com/topknock_sports/" target="_blank" rel="noopener"
-                        aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-                    <!-- TikTok (fallback text or upgrade FA) -->
-                    <a href="https://www.tiktok.com/@topknock44?_r=1&_t=ZS-95WpdoZazje" target="_blank" rel="noopener" aria-label="TikTok">
-                        <img src="images/tiktok-icon.png">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     @include('partials.footer')
 
