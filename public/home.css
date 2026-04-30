@@ -202,9 +202,9 @@ img {
 
     .hero {
         height: 70vh;        /* reduce height for mobile */
-        min-height: 400px;
+        /* min-height: 400px;
     }
-} */
+} */ 
 
 /* Lightbox container */
 .lightbox {
