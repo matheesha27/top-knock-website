@@ -277,14 +277,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li>✔ Gain respect as a knowledgeable cricket member</li>
             </ul>
 
-            <p><strong>📚 COURSE DETAILS:</strong></p>
-            <ul>
-                <li>🖥️ 7:00 PM – 9:00 PM</li>
-                <li>📅 15, 16, 17, 19, 20 May 2026</li>
-                <li>📝 Exam: 24th May 2026</li>
-                <li>💰 AED 400 + VAT</li>
-            </ul>
-
             <p><strong>📞 REGISTER NOW:</strong><br>
             📱 +971 50 6328350 – Manju<br>
             📱 +971 55 8380176 – Chemila</p>
@@ -292,9 +284,11 @@ document.addEventListener("DOMContentLoaded", function () {
             <p><strong>🔥 MASTER THE GAME 🔥</strong></p>
         `,
         meta: [
-            "📍 Dubai International Stadium",
-            "📅 August 2025",
-            "🏆 International Tournament"
+            "🖥️ Online Tutorials: 7:00 PM – 9:00 PM",
+            "📅 Lectures: 15, 16, 17, 19, 20 May 2026",
+            "📝 Exam Date: 24th May 2026",
+            "📄 Practical Submission: Within 14 days",
+            "💰 Fee: AED 400 + 5% VAT"
         ]
         },
         {
@@ -306,10 +300,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 <p>
                 Played in a <strong>22-over format</strong> with dynamic <strong>powerplay rules</strong> and <strong>impact players</strong>, the league brings together <strong>4 strong teams</strong> battling for one ultimate title.
-                </p>
-
-                <p>
-                📍 Hosted at <strong>Eagles Cricket Ground, Sharjah</strong>, the tournament delivers:
                 </p>
 
                 <ul>
