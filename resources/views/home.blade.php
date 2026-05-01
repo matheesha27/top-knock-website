@@ -46,47 +46,42 @@
     </section>
 
     <section class="events-section">
-        <div class="section-header">
-            <h2>What’s Coming Next?</h2>
-            <p class="sub">Stay updated with our latest tournaments and sporting experiences</p>
-        </div>
+        <div class="events-wrapper">
 
-        <div class="events-container">
+            <!-- LEFT -->
+            <div class="events-text">
+                <h2>What’s Coming Next?</h2>
+                <p>Stay updated with our latest tournaments and sporting experiences.</p>
+            </div>
 
-            <!-- LEFT: Image Slider -->
+            <!-- RIGHT -->
             <div class="events-slider">
+                <div class="event-track">
 
-                <div class="event-slide active">
-                    <img src="images/news/banner1.jpeg" alt="Event 1">
+                    <div class="event-slide">
+                        <a href="/news-1">
+                            <img src="images/news/banner1.jpeg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="event-slide">
+                        <a href="/news-2">
+                            <img src="images/news/banner2.jpeg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="event-slide">
+                        <a href="/news-3">
+                            <img src="images/news/banner3.jpeg" alt="">
+                        </a>
+                    </div>
+
                 </div>
 
-                <div class="event-slide">
-                    <img src="images/news/banner2.jpeg" alt="Event 2">
-                </div>
-
-                <div class="event-slide">
-                    <img src="images/news/banner3.jpeg" alt="Event 3">
-                </div>
-
-                <!-- Arrows -->
-                <button class="slider-btn prev">&#10094;</button>
-                <button class="slider-btn next">&#10095;</button>
-
+                <!-- DOTS -->
+                <div class="slider-dots"></div>
             </div>
 
-            <!-- RIGHT: Description -->
-           <div class="events-content">
-                <h3 id="eventTitle"></h3>
-                <div id="eventDesc"></div>
-                <ul id="eventMeta"></ul>
-            </div>
-
-        </div>
-
-        <!-- Lightbox -->
-        <div id="lightbox" class="lightbox">
-            <span class="close">&times;</span>
-            <img class="lightbox-img" id="lightboxImg">
         </div>
     </section>
 

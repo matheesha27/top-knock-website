@@ -355,68 +355,91 @@ document.addEventListener("DOMContentLoaded", function () {
             ]
         }
     ];
+}
 
-    function showSlide(i) {
-        slides.forEach(s => s.classList.remove('active'));
-        slides[i].classList.add('active');
+// (function () {
+//     const slides = document.querySelectorAll('.event-slide');
+//     const next = document.querySelector('.slider-btn.next');
+//     const prev = document.querySelector('.slider-btn.prev');
 
-        if (title && desc && meta) {
-            title.textContent = data[i].title;
-            desc.innerHTML = data[i].desc;
-            meta.innerHTML = data[i].meta.map(m => `<li>${m}</li>`).join('');
-        }
-    }
+//     let index = 0;
+//     let interval;
 
-    document.querySelectorAll('.event-slide img').forEach((img, i) => {
-        img.addEventListener('click', function () {
+//     function showSlide(i) {
+//         slides.forEach(s => s.classList.remove('active'));
+//         slides[i].classList.add('active');
+
+//     function autoSlide() {
+//         index = (index + 1) % slides.length;
+//         showSlide(index);
+//     }
+
+//     setInterval(autoSlide, 3000);
+
+//     // Arrow controls
+//     next.addEventListener('click', () => {
+//         nextSlide();
+//         resetAutoSlide();
+//     });
+
+//     prev.addEventListener('click', () => {
+//         prevSlide();
+//         resetAutoSlide();
+//     });
+
+//     // Auto slide every 3 seconds
+//     function startAutoSlide() {
+//         interval = setInterval(nextSlide, 3000);
+//     }
+
+//     function resetAutoSlide() {
+//         clearInterval(interval);
+//         startAutoSlide();
+//     }
+
+//     // Init
+//     showSlide(index);
+//     startAutoSlide();
+
+// }}()));
+);
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const track = document.querySelector('.event-track');
+    const slides = document.querySelectorAll('.event-slide');
+    const dotsContainer = document.querySelector('.slider-dots');
+
+    if (!track || !slides.length) return;
+
+    let index = 0;
+
+    // CREATE DOTS
+    slides.forEach((_, i) => {
+        const dot = document.createElement('span');
+        if (i === 0) dot.classList.add('active');
+
+        dot.addEventListener('click', () => {
             index = i;
-            showSlide(index);
+            updateSlider();
         });
+
+        dotsContainer.appendChild(dot);
     });
 
-    if (next) next.addEventListener('click', () => {
-        index = (index + 1) % slides.length;
-        showSlide(index);
-    });
+    const dots = dotsContainer.querySelectorAll('span');
 
-    if (prev) prev.addEventListener('click', () => {
-        index = (index - 1 + slides.length) % slides.length;
-        showSlide(index);
-    });
+    function updateSlider() {
+        track.style.transform = `translateX(-${index * 100}%)`;
 
-    showSlide(0);
-
-})();
-
-
-// =========================
-// LIGHTBOX (FIXED)
-// =========================
-(function () {
-    const images = document.querySelectorAll('.event-slide img');
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightboxImg');
-    const closeBtn = document.querySelector('#lightbox .close');
-
-    if (!images.length || !lightbox || !lightboxImg) return;
-
-    images.forEach(img => {
-        img.addEventListener('click', function () {
-            lightbox.style.display = 'flex';
-            lightboxImg.src = this.src; // ✅ correct image
-        });
-    });
-
-    if (closeBtn) {
-        closeBtn.addEventListener('click', () => {
-            lightbox.style.display = 'none';
-        });
+        dots.forEach(d => d.classList.remove('active'));
+        dots[index].classList.add('active');
     }
 
-    lightbox.addEventListener('click', (e) => {
-        if (e.target === lightbox) {
-            lightbox.style.display = 'none';
-        }
-    });
+    function autoSlide() {
+        index = (index + 1) % slides.length;
+        updateSlider();
+    }
 
-})();
+    setInterval(autoSlide, 3000);
+});

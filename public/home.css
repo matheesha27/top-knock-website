@@ -72,17 +72,10 @@ img {
     z-index: 0;
 }
 
-/* .hero::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(10, 12, 22, .2);
-    z-index: 1;
-} */
-
 .hero-inner {
     position: relative;
     z-index: 2;
+    margin-top: 100px;
     /* make text above video + overlay */
 }
 
@@ -108,13 +101,6 @@ img {
     justify-content: center;
     flex-wrap: wrap
 }
-
-/* .btn {
-    padding: 12px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: 100;
-} */
 
 .btn {
     display: inline-block;
@@ -190,55 +176,6 @@ img {
 .prev { left: 10px; }
 .next { right: 10px; }
 
-/* MOBILE */
-/* @media (max-width: 768px) {
-    .events-container {
-        flex-direction: column;
-    }
-
-    .events-slider {
-        height: 250px;
-    }
-
-    .hero {
-        height: 70vh;        /* reduce height for mobile */
-        /* min-height: 400px;
-    }
-} */ 
-
-/* Lightbox container */
-.lightbox {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.9);
-    justify-content: center;
-    align-items: center;
-}
-
-/* Image inside lightbox */
-.lightbox-img {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 6px;
-}
-
-/* Close button */
-.lightbox .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 35px;
-    color: #fff;
-    cursor: pointer;
-}
-
-/* Optional zoom cursor */
-.event-slide img {
-    cursor: zoom-in;
-}
-
 .slider-btn:hover {
     background: rgba(0,0,0,0.8);
 }
@@ -290,15 +227,52 @@ img {
     color: #ddd;
 }
 
+/* SECTION */
 .events-section {
-    padding: 60px 10%;
-    background: #1b2138;
-    color: #fff;
+  background: #111626;
+  padding: 20px 10%;
+  color: #fff;
+}
+
+/* 2 COLUMN LAYOUT */
+.events-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.events-text {
+  width: 35%;
+}
+
+.events-text h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.events-text p {
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* RIGHT SLIDER */
+.events-slider {
+  width: 65%;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* TRACK (important for swipe) */
+.event-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.7s ease-in-out;
 }
 
 .section-header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .section-header h2 {
@@ -318,96 +292,72 @@ img {
 }
 
 .events-slider {
-  position: relative;
-  width: 50%;
-  height: 500px;
+  width: 65%;
+  height: 450px;              /* ✅ use this ONLY */
   overflow: hidden;
+  border-radius: 12px;
+  position: relative;
 }
 
 .event-slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  pointer-events: none; /* ❌ disable clicks on hidden slides */
+  min-width: 100%;
+  height: 100%;   /* ✅ IMPORTANT */
 }
 
 .event-slide.active {
   opacity: 1;
-  pointer-events: auto; /* ✅ only active slide is clickable */
+  z-index: 1;
 }
 
 .event-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  cursor: pointer;
+  object-fit: cover;
+  display: block;
 }
 
-/* Arrows */
-.slider-btn {
+/* DOTS */
+.slider-dots {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #d5074d;
-  color: #fff;
-  border: none;
-  font-size: 24px;
-  padding: 8px 12px;
-  cursor: pointer;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.slider-dots span {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
   border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.slider-btn.prev { left: 10px; }
-.slider-btn.next { right: 10px; }
-
-/* RIGHT content */
-.events-content {
-  width: 50%;
+.slider-dots span.active {
+  background: #fff;
+  transform: scale(1.2);
 }
 
-/* lightbox */
-.lightbox {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.8);
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-}
-
-.lightbox-img {
-  transform: scale(0.9);
-  transition: 0.3s ease;
-}
-
-.lightbox[style*="flex"] .lightbox-img {
-  transform: scale(1);
-}
-
-.lightbox .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 35px;
-    color: #fff;
-    cursor: pointer;
-}
-
-/* MOBILE FIX */
+/* MOBILE */
 @media (max-width: 768px) {
-  .events-container {
+  .events-wrapper {
     flex-direction: column;
   }
 
-  .events-slider,
-  .events-content {
+  .events-text,
+  .events-slider {
     width: 100%;
   }
 
-  .events-slider {
-    height: 250px;
+  .event-slide img {
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .slider-dots {
+    margin-top: 8px; /* adjust as needed */
   }
 }
 
