@@ -25,48 +25,85 @@
     @include('partials.header')
 
     <section class="events-section">
-        <div class="section-header">
-            <h2>What’s Coming Next?</h2>
-            <p class="sub">Stay updated with our latest tournaments and sporting experiences</p>
-        </div>
 
         <div class="events-container">
 
-            <!-- LEFT: Image Slider -->
-            <div class="events-slider">
-
-                <div class="event-slide active">
-                    <img src="images/news/banner1.jpeg" alt="Event 1">
-                </div>
-
-                <div class="event-slide">
-                    <img src="images/news/banner2.jpeg" alt="Event 2">
-                </div>
-
-                <div class="event-slide">
-                    <img src="images/news/banner3.jpeg" alt="Event 3">
-                </div>
-
-                <!-- Arrows -->
-                <button class="slider-btn prev">&#10094;</button>
-                <button class="slider-btn next">&#10095;</button>
-
+            <!-- LEFT: Banner -->
+            <div class="events-banner">
+                <img src="images/news/banner1.jpeg" alt="Cricket Event Banner">
             </div>
 
-            <!-- RIGHT: Description -->
-           <div class="events-content">
-                <h3 id="eventTitle"></h3>
-                <div id="eventDesc"></div>
-                <ul id="eventMeta"></ul>
+            <!-- RIGHT: Content -->
+            <div class="events-content">
+
+                <h3>
+                    LEVEL 1 CRICKET UMPIRE ACCREDITATION COURSE – ONLINE BATCH 1
+                </h3>
+
+                <p>
+                    Take your cricket knowledge to the <strong>NEXT LEVEL</strong> and gain the confidence to understand, control, and respect the game like a professional! 📘🏏
+                </p>
+
+                <p class="event-highlight">
+                    This is <strong>NOT just an umpire course</strong> — it is a powerful learning experience for:
+                </p>
+
+                <ul class="event-list">
+                    <li>👨‍⚖️ Aspiring Umpires</li>
+                    <li>🏏 Cricketers</li>
+                    <li>👨‍🏫 Coaches</li>
+                    <li>📋 Team Managers</li>
+                    <li>📊 Scorers</li>
+                    <li>🏟️ Cricket Organizers</li>
+                    <li>❤️ Cricket Enthusiasts</li>
+                </ul>
+
+                <h4>📌 WHY JOIN THIS COURSE?</h4>
+                <ul class="event-list">
+                    <li>✔ Understand the Laws of Cricket in depth</li>
+                    <li>✔ Make smarter decisions on and off the field</li>
+                    <li>✔ Improve discipline and game awareness</li>
+                    <li>✔ Run matches more professionally</li>
+                    <li>✔ Gain respect as a knowledgeable cricket member</li>
+                </ul>
+
+                <h4>🎓 ACCREDITED LEVEL 1 COURSE (APCU Sri Lanka)</h4>
+                <p>Learn directly from world-class ICC panel umpires:</p>
+
+                <ul class="event-list">
+                    <li>🔹 Lyndon Hannibal – ICC International Panel Umpire</li>
+                    <li>🔹 Ranmor Martinesz – ICC Test Umpire</li>
+                    <li>🔹 Asoka De Silva – ICC Elite Panel Umpire</li>
+                </ul>
+
+                <h4>📚 COURSE DETAILS</h4>
+                <ul>
+                    <li>🖥️ Online Tutorials: 7:00 PM – 9:00 PM</li>
+                    <li>📅 Lectures: 15, 16, 17, 19, 20 May 2026</li>
+                    <li>📝 Exam Date: 24th May 2026</li>
+                    <li>📄 Practical Submission: Within 14 days</li>
+                    <li>💰 Fee: AED 400 + 5% VAT</li>
+                </ul>
+
+                <h4>📞 REGISTER NOW</h4>
+                <ul class="event-list">
+                    <li>📱 +971 50 632 8350 – Manju</li>
+                    <li>📱 +971 55 838 0176 – Chemila</li>
+                </ul>
+
+                <p class="event-footer">
+                    🏆 Whether you’re on the field or behind the scenes — this course gives you the edge to 
+                    <strong>UNDERSTAND THE GAME LIKE NEVER BEFORE.</strong>
+                </p>
+
+                <p class="event-footer highlight">
+                    🔥 Don’t just play or watch cricket — <strong>MASTER IT!</strong> 🔥
+                </p>
+
             </div>
 
         </div>
 
-        <!-- Lightbox -->
-        <div id="lightbox" class="lightbox">
-            <span class="close">&times;</span>
-            <img class="lightbox-img" id="lightboxImg">
-        </div>
     </section>
 
     @include('partials.footer')

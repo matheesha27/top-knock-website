@@ -75,17 +75,17 @@ Route::get('/service-photography', function () {
 // News Section routes
 // News 1
 Route::get('/news-1', function () {
-    return view('/service-photography');
+    return view('/news-1');
 });
 
 // News 2
 Route::get('/news-2', function () {
-    return view('/service-photography');
+    return view('/news-2');
 });
 
 // News 3
 Route::get('/news-3', function () {
-    return view('/service-photography');
+    return view('/news-3');
 });
 
 // =========================
