@@ -21,7 +21,7 @@ body {
     height: auto;
     object-fit: cover;
 }
-.hero-text {
+/* .hero-text {
     background: var(--color2);
     color: #fff;
     padding: 100px 100px 50px 100px;
@@ -30,7 +30,22 @@ body {
     position: relative;
     z-index: 2;
     text-align: left;
+} */
+
+.hero-text {
+    background: var(--color2);
+    color: #fff;
+    padding: 60px 60px 40px;
+    max-width: 850px;
+
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+
+    z-index: 2;
+    text-align: left;
 }
+
 .hero-text h1 {
     font-size: 48px;
     font-weight: bold;
@@ -144,9 +159,19 @@ body {
     .hero img {
         margin: 0 !important;
     }
-     .hero-text {
+     /* .hero-text {
         padding: 50px 20px;
         margin: 25px;
+        text-align: center;
+    } */
+    .hero-text {
+        position: relative;
+        right: auto;
+        bottom: auto;
+
+        margin: 15px;
+        padding: 30px;
+        
         text-align: center;
     }
     .hero-text h1 {

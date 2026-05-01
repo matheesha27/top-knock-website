@@ -359,6 +359,20 @@ img {
   .slider-dots {
     margin-top: 8px; /* adjust as needed */
   }
+
+      .events-container {
+        flex-direction: column;
+        gap: 10px; /* 🔥 reduced gap */
+    }
+
+    .events-banner,
+    .events-content {
+        width: 100%;
+    }
+
+    .events-banner {
+        margin-bottom: 5px; /* 🔥 tight spacing */
+    }
 }
 
 /* --- Floating Action Button --- */

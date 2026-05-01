@@ -356,52 +356,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ];
 }
-
-// (function () {
-//     const slides = document.querySelectorAll('.event-slide');
-//     const next = document.querySelector('.slider-btn.next');
-//     const prev = document.querySelector('.slider-btn.prev');
-
-//     let index = 0;
-//     let interval;
-
-//     function showSlide(i) {
-//         slides.forEach(s => s.classList.remove('active'));
-//         slides[i].classList.add('active');
-
-//     function autoSlide() {
-//         index = (index + 1) % slides.length;
-//         showSlide(index);
-//     }
-
-//     setInterval(autoSlide, 3000);
-
-//     // Arrow controls
-//     next.addEventListener('click', () => {
-//         nextSlide();
-//         resetAutoSlide();
-//     });
-
-//     prev.addEventListener('click', () => {
-//         prevSlide();
-//         resetAutoSlide();
-//     });
-
-//     // Auto slide every 3 seconds
-//     function startAutoSlide() {
-//         interval = setInterval(nextSlide, 3000);
-//     }
-
-//     function resetAutoSlide() {
-//         clearInterval(interval);
-//         startAutoSlide();
-//     }
-
-//     // Init
-//     showSlide(index);
-//     startAutoSlide();
-
-// }}()));
 );
 
 document.addEventListener("DOMContentLoaded", function () {

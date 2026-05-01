@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-overlay">
-            <img src="{{ asset('images/about-1.jpg') }}" alt="Sports Banner" style="margin-left: -220px;">
+            <img src="{{ asset('images/about-1.jpg') }}" alt="Sports Banner" style="margin-left: -200px;">
             <div class="hero-text">
                 <h1>
                     WE ARE 
