@@ -72,6 +72,22 @@ Route::get('/service-photography', function () {
     return view('/service-photography');
 });
 
+// News Section routes
+// News 1
+Route::get('/news-1', function () {
+    return view('/service-photography');
+});
+
+// News 2
+Route::get('/news-2', function () {
+    return view('/service-photography');
+});
+
+// News 3
+Route::get('/news-3', function () {
+    return view('/service-photography');
+});
+
 // =========================
 // CONTACT FORM ROUTE
 // =========================
