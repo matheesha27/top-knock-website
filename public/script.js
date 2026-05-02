@@ -54,13 +54,19 @@ document.addEventListener("DOMContentLoaded", function () {
             var el = document.getElementById(id);
             if (el) {
                 e.preventDefault();
+
+                const header = document.querySelector('.topbar');
+                const headerHeight = header ? header.offsetHeight : 0;
+
+                const y = el.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
                 window.scrollTo({
-                    top: el.getBoundingClientRect().top + window.pageYOffset - 60,
+                    top: y,
                     behavior: 'smooth'
                 });
             }
         });
-    });
+});
 
     // =========================
     // COUNTERS
